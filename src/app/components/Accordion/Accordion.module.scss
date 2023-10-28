@@ -1,0 +1,39 @@
+.accordion {
+  border-bottom: 1px solid var(--gray-350);
+  transition: all 0.3s ease-in-out;
+  padding: 20px 0;
+  cursor: pointer;
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .accordion-body {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .accordion-item {
+      text-transform: capitalize;
+    }
+  }
+
+  &-open {
+    .accordion-header {
+      .accordion-header-icon {
+        transform: rotate(180deg);
+      }
+    }
+    .accordion-body {
+      padding-top: 20px;
+      height: auto;
+    }
+  }
+}

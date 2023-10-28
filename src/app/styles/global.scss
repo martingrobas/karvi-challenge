@@ -1,0 +1,46 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+:root {
+  --font-raleway: $font-raleway;
+  @each $name, $weight in $font-weights {
+    --font-#{$name}: #{$weight};
+  }
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+  }
+  @each $name, $shadow in $shadows {
+    --shadow-#{$name}: #{$shadow};
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  padding: 16px;
+  @media (min-width: 720px) {
+    padding: 24px;
+  }
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--gray-100);
+  color: var(--gray-1000);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: var(--gray-700) solid 1px;
+  
+  > .container {
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 720px) {
+      padding: 24px;
+    }
+  }
+}

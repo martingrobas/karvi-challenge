@@ -1,0 +1,11 @@
+@use 'sass:map';
+@import '../../styles/variables';
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 68px;
+  @each $prop, $value in map.get($font-sizes, 'sm') {
+    #{$prop}: #{$value};
+  }
+  background-color: var(--gray-200);
+}

@@ -1,0 +1,26 @@
+@use 'sass:map';
+@import '../../styles/variables';
+
+.chip {
+  border: 1px solid var(--blue-500);
+  border-radius: 64px;
+  padding: 4px 8px;
+  color: var(--blue-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  font-family: $font-raleway;
+
+  &:hover {
+    background-color: var(--gray-200);
+  }
+
+  @each $prop, $value in map.get($font-sizes, 'sm') {
+    #{$prop}: #{$value};
+  }
+  svg > path {
+    fill: var(--blue-800);
+  }
+}

@@ -1,0 +1,2816 @@
+{
+  "availableFilters": {
+    "state": [
+        {
+            "id": "São Paulo",
+            "name": "São Paulo",
+            "slug": "sao-paulo",
+            "count": 1902
+        }
+    ],
+    "city": [
+        {
+            "id": "Campinas",
+            "name": "Campinas",
+            "slug": "campinas",
+            "count": 490,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Santos",
+            "name": "Santos",
+            "slug": "santos",
+            "count": 381,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "São Paulo",
+            "name": "São Paulo",
+            "slug": "sao-paulo",
+            "count": 319,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "São José dos Campos",
+            "name": "São José dos Campos",
+            "slug": "sao-jose-dos-campos",
+            "count": 104,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Paulínia",
+            "name": "Paulínia",
+            "slug": "paulinia",
+            "count": 90,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Jundiaí",
+            "name": "Jundiaí",
+            "slug": "jundiai",
+            "count": 88,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Jacareí",
+            "name": "Jacareí",
+            "slug": "jacarei",
+            "count": 63,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Carapicuíba",
+            "name": "Carapicuíba",
+            "slug": "carapicuiba",
+            "count": 62,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Valinhos",
+            "name": "Valinhos",
+            "slug": "valinhos",
+            "count": 62,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Santo André",
+            "name": "Santo André",
+            "slug": "santo-andre",
+            "count": 61,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Piracicaba",
+            "name": "Piracicaba",
+            "slug": "piracicaba",
+            "count": 57,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Praia Grande",
+            "name": "Praia Grande",
+            "slug": "praia-grande",
+            "count": 45,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Sumaré",
+            "name": "Sumaré",
+            "slug": "sumare",
+            "count": 43,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Limeira",
+            "name": "Limeira",
+            "slug": "limeira",
+            "count": 26,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        },
+        {
+            "id": "Americana",
+            "name": "Americana",
+            "slug": "americana",
+            "count": 11,
+            "subAggs": {
+                "state": "São Paulo",
+                "stateSlug": "sao-paulo"
+            }
+        }
+    ],
+    "brand": [
+        {
+            "id": "VOLKSWAGEN",
+            "name": "VOLKSWAGEN",
+            "count": 276
+        },
+        {
+            "id": "CHEVROLET",
+            "name": "CHEVROLET",
+            "count": 228
+        },
+        {
+            "id": "FIAT",
+            "name": "FIAT",
+            "count": 183
+        },
+        {
+            "id": "PEUGEOT",
+            "name": "PEUGEOT",
+            "count": 155
+        },
+        {
+            "id": "HONDA",
+            "name": "HONDA",
+            "count": 113
+        },
+        {
+            "id": "FORD",
+            "name": "FORD",
+            "count": 111
+        },
+        {
+            "id": "KIA",
+            "name": "KIA",
+            "count": 111
+        },
+        {
+            "id": "RENAULT",
+            "name": "RENAULT",
+            "count": 110
+        },
+        {
+            "id": "HYUNDAI",
+            "name": "HYUNDAI",
+            "count": 100
+        },
+        {
+            "id": "JEEP",
+            "name": "JEEP",
+            "count": 90
+        },
+        {
+            "id": "NISSAN",
+            "name": "NISSAN",
+            "count": 67
+        },
+        {
+            "id": "TOYOTA",
+            "name": "TOYOTA",
+            "count": 58
+        },
+        {
+            "id": "CITROEN",
+            "name": "CITROEN",
+            "count": 57
+        },
+        {
+            "id": "AUDI",
+            "name": "AUDI",
+            "count": 37
+        },
+        {
+            "id": "LAND ROVER",
+            "name": "LAND ROVER",
+            "count": 34
+        },
+        {
+            "id": "MITSUBISHI",
+            "name": "MITSUBISHI",
+            "count": 34
+        },
+        {
+            "id": "BMW",
+            "name": "BMW",
+            "count": 29
+        },
+        {
+            "id": "CHERY",
+            "name": "CHERY",
+            "count": 28
+        },
+        {
+            "id": "MERCEDES-BENZ",
+            "name": "MERCEDES-BENZ",
+            "count": 23
+        },
+        {
+            "id": "VOLVO",
+            "name": "VOLVO",
+            "count": 18
+        },
+        {
+            "id": "JAGUAR",
+            "name": "JAGUAR",
+            "count": 9
+        },
+        {
+            "id": "DODGE",
+            "name": "DODGE",
+            "count": 6
+        },
+        {
+            "id": "BYD",
+            "name": "BYD",
+            "count": 5
+        },
+        {
+            "id": "MINI",
+            "name": "MINI",
+            "count": 5
+        },
+        {
+            "id": "PORSCHE",
+            "name": "PORSCHE",
+            "count": 4
+        },
+        {
+            "id": "TROLLER",
+            "name": "TROLLER",
+            "count": 4
+        },
+        {
+            "id": "IVECO",
+            "name": "IVECO",
+            "count": 3
+        },
+        {
+            "id": "SUZUKI",
+            "name": "SUZUKI",
+            "count": 2
+        },
+        {
+            "id": "RAM",
+            "name": "RAM",
+            "count": 1
+        },
+        {
+            "id": "SUBARU",
+            "name": "SUBARU",
+            "count": 1
+        }
+    ],
+    "model": [
+        {
+            "id": "ONIX",
+            "name": "ONIX",
+            "count": 89,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "SPORTAGE",
+            "name": "SPORTAGE",
+            "count": 56,
+            "subAggs": {
+                "brand": "KIA"
+            }
+        },
+        {
+            "id": "COMPASS",
+            "name": "COMPASS",
+            "count": 49,
+            "subAggs": {
+                "brand": "JEEP"
+            }
+        },
+        {
+            "id": "2008",
+            "name": "2008",
+            "count": 46,
+            "subAggs": {
+                "brand": "PEUGEOT"
+            }
+        },
+        {
+            "id": "208",
+            "name": "208",
+            "count": 46,
+            "subAggs": {
+                "brand": "PEUGEOT"
+            }
+        },
+        {
+            "id": "KA",
+            "name": "KA",
+            "count": 43,
+            "subAggs": {
+                "brand": "FORD"
+            }
+        },
+        {
+            "id": "HR-V",
+            "name": "HR-V",
+            "count": 42,
+            "subAggs": {
+                "brand": "HONDA"
+            }
+        },
+        {
+            "id": "RENEGADE",
+            "name": "RENEGADE",
+            "count": 39,
+            "subAggs": {
+                "brand": "JEEP"
+            }
+        },
+        {
+            "id": "HB20",
+            "name": "HB20",
+            "count": 37,
+            "subAggs": {
+                "brand": "HYUNDAI"
+            }
+        },
+        {
+            "id": "KICKS",
+            "name": "KICKS",
+            "count": 37,
+            "subAggs": {
+                "brand": "NISSAN"
+            }
+        },
+        {
+            "id": "CIVIC",
+            "name": "CIVIC",
+            "count": 36,
+            "subAggs": {
+                "brand": "HONDA"
+            }
+        },
+        {
+            "id": "3008",
+            "name": "3008",
+            "count": 35,
+            "subAggs": {
+                "brand": "PEUGEOT"
+            }
+        },
+        {
+            "id": "GOL",
+            "name": "GOL",
+            "count": 34,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "NIRO",
+            "name": "NIRO",
+            "count": 32,
+            "subAggs": {
+                "brand": "KIA"
+            }
+        },
+        {
+            "id": "SANDERO",
+            "name": "SANDERO",
+            "count": 31,
+            "subAggs": {
+                "brand": "RENAULT"
+            }
+        },
+        {
+            "id": "ARGO",
+            "name": "ARGO",
+            "count": 29,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "C4 CACTUS",
+            "name": "C4 CACTUS",
+            "count": 28,
+            "subAggs": {
+                "brand": "CITROEN"
+            }
+        },
+        {
+            "id": "FOX",
+            "name": "FOX",
+            "count": 28,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "MOBI",
+            "name": "MOBI",
+            "count": 27,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "COROLLA",
+            "name": "COROLLA",
+            "count": 25,
+            "subAggs": {
+                "brand": "TOYOTA"
+            }
+        },
+        {
+            "id": "FIESTA",
+            "name": "FIESTA",
+            "count": 25,
+            "subAggs": {
+                "brand": "FORD"
+            }
+        },
+        {
+            "id": "JETTA",
+            "name": "JETTA",
+            "count": 24,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "C3",
+            "name": "C3",
+            "count": 23,
+            "subAggs": {
+                "brand": "CITROEN"
+            }
+        },
+        {
+            "id": "CRUZE",
+            "name": "CRUZE",
+            "count": 23,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "PRISMA",
+            "name": "PRISMA",
+            "count": 23,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "TORO",
+            "name": "TORO",
+            "count": 23,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "SAVEIRO",
+            "name": "SAVEIRO",
+            "count": 22,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "T-CROSS",
+            "name": "T-CROSS",
+            "count": 21,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "HB20S",
+            "name": "HB20S",
+            "count": 20,
+            "subAggs": {
+                "brand": "HYUNDAI"
+            }
+        },
+        {
+            "id": "VIRTUS",
+            "name": "VIRTUS",
+            "count": 19,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "DUSTER",
+            "name": "DUSTER",
+            "count": 18,
+            "subAggs": {
+                "brand": "RENAULT"
+            }
+        },
+        {
+            "id": "ECOSPORT",
+            "name": "ECOSPORT",
+            "count": 18,
+            "subAggs": {
+                "brand": "FORD"
+            }
+        },
+        {
+            "id": "320I",
+            "name": "320I",
+            "count": 17,
+            "subAggs": {
+                "brand": "BMW"
+            }
+        },
+        {
+            "id": "PALIO",
+            "name": "PALIO",
+            "count": 17,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "TRACKER",
+            "name": "TRACKER",
+            "count": 17,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "UNO",
+            "name": "UNO",
+            "count": 17,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "UP",
+            "name": "UP",
+            "count": 17,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "DISCOVERY SPORT",
+            "name": "DISCOVERY SPORT",
+            "count": 16,
+            "subAggs": {
+                "brand": "LAND ROVER"
+            }
+        },
+        {
+            "id": "STRADA",
+            "name": "STRADA",
+            "count": 16,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "TIGUAN",
+            "name": "TIGUAN",
+            "count": 16,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "A3",
+            "name": "A3",
+            "count": 15,
+            "subAggs": {
+                "brand": "AUDI"
+            }
+        },
+        {
+            "id": "FIORINO",
+            "name": "FIORINO",
+            "count": 15,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "NIVUS",
+            "name": "NIVUS",
+            "count": 15,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "POLO",
+            "name": "POLO",
+            "count": 15,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "VOYAGE",
+            "name": "VOYAGE",
+            "count": 15,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "FIT",
+            "name": "FIT",
+            "count": 14,
+            "subAggs": {
+                "brand": "HONDA"
+            }
+        },
+        {
+            "id": "S10",
+            "name": "S10",
+            "count": 14,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "KWID",
+            "name": "KWID",
+            "count": 13,
+            "subAggs": {
+                "brand": "RENAULT"
+            }
+        },
+        {
+            "id": "TUCSON",
+            "name": "TUCSON",
+            "count": 13,
+            "subAggs": {
+                "brand": "HYUNDAI"
+            }
+        },
+        {
+            "id": "CITY",
+            "name": "CITY",
+            "count": 12,
+            "subAggs": {
+                "brand": "HONDA"
+            }
+        },
+        {
+            "id": "SPIN",
+            "name": "SPIN",
+            "count": 12,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "VERSA",
+            "name": "VERSA",
+            "count": 12,
+            "subAggs": {
+                "brand": "NISSAN"
+            }
+        },
+        {
+            "id": "CAPTUR",
+            "name": "CAPTUR",
+            "count": 11,
+            "subAggs": {
+                "brand": "RENAULT"
+            }
+        },
+        {
+            "id": "EXPERT",
+            "name": "EXPERT",
+            "count": 11,
+            "subAggs": {
+                "brand": "PEUGEOT"
+            }
+        },
+        {
+            "id": "HILUX",
+            "name": "HILUX",
+            "count": 11,
+            "subAggs": {
+                "brand": "TOYOTA"
+            }
+        },
+        {
+            "id": "LOGAN",
+            "name": "LOGAN",
+            "count": 11,
+            "subAggs": {
+                "brand": "RENAULT"
+            }
+        },
+        {
+            "id": "CRONOS",
+            "name": "CRONOS",
+            "count": 10,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "CELTA",
+            "name": "CELTA",
+            "count": 9,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "CLIO",
+            "name": "CLIO",
+            "count": 9,
+            "subAggs": {
+                "brand": "RENAULT"
+            }
+        },
+        {
+            "id": "COBALT",
+            "name": "COBALT",
+            "count": 9,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "ECLIPSE CROSS",
+            "name": "ECLIPSE CROSS",
+            "count": 9,
+            "subAggs": {
+                "brand": "MITSUBISHI"
+            }
+        },
+        {
+            "id": "IX35",
+            "name": "IX35",
+            "count": 9,
+            "subAggs": {
+                "brand": "HYUNDAI"
+            }
+        },
+        {
+            "id": "Q5",
+            "name": "Q5",
+            "count": 9,
+            "subAggs": {
+                "brand": "AUDI"
+            }
+        },
+        {
+            "id": "ASX",
+            "name": "ASX",
+            "count": 8,
+            "subAggs": {
+                "brand": "MITSUBISHI"
+            }
+        },
+        {
+            "id": "DUSTER OROCH",
+            "name": "DUSTER OROCH",
+            "count": 8,
+            "subAggs": {
+                "brand": "RENAULT"
+            }
+        },
+        {
+            "id": "FRONTIER",
+            "name": "FRONTIER",
+            "count": 8,
+            "subAggs": {
+                "brand": "NISSAN"
+            }
+        },
+        {
+            "id": "GOLF",
+            "name": "GOLF",
+            "count": 8,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "PASSAT",
+            "name": "PASSAT",
+            "count": 8,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "RANGER",
+            "name": "RANGER",
+            "count": 8,
+            "subAggs": {
+                "brand": "FORD"
+            }
+        },
+        {
+            "id": "XC40",
+            "name": "XC40",
+            "count": 8,
+            "subAggs": {
+                "brand": "VOLVO"
+            }
+        },
+        {
+            "id": "A4",
+            "name": "A4",
+            "count": 7,
+            "subAggs": {
+                "brand": "AUDI"
+            }
+        },
+        {
+            "id": "AMAROK",
+            "name": "AMAROK",
+            "count": 7,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "JOY",
+            "name": "JOY",
+            "count": 7,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "MONTANA",
+            "name": "MONTANA",
+            "count": 7,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "OUTLANDER",
+            "name": "OUTLANDER",
+            "count": 7,
+            "subAggs": {
+                "brand": "MITSUBISHI"
+            }
+        },
+        {
+            "id": "TIGGO 3X",
+            "name": "TIGGO 3X",
+            "count": 7,
+            "subAggs": {
+                "brand": "CHERY"
+            }
+        },
+        {
+            "id": "207",
+            "name": "207",
+            "count": 6,
+            "subAggs": {
+                "brand": "PEUGEOT"
+            }
+        },
+        {
+            "id": "BONGO",
+            "name": "BONGO",
+            "count": 6,
+            "subAggs": {
+                "brand": "KIA"
+            }
+        },
+        {
+            "id": "JOURNEY",
+            "name": "JOURNEY",
+            "count": 6,
+            "subAggs": {
+                "brand": "DODGE"
+            }
+        },
+        {
+            "id": "MERIVA",
+            "name": "MERIVA",
+            "count": 6,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "SENTRA",
+            "name": "SENTRA",
+            "count": 6,
+            "subAggs": {
+                "brand": "NISSAN"
+            }
+        },
+        {
+            "id": "SORENTO",
+            "name": "SORENTO",
+            "count": 6,
+            "subAggs": {
+                "brand": "KIA"
+            }
+        },
+        {
+            "id": "XC60",
+            "name": "XC60",
+            "count": 6,
+            "subAggs": {
+                "brand": "VOLVO"
+            }
+        },
+        {
+            "id": "ARRIZO 6",
+            "name": "ARRIZO 6",
+            "count": 5,
+            "subAggs": {
+                "brand": "CHERY"
+            }
+        },
+        {
+            "id": "BRONCO",
+            "name": "BRONCO",
+            "count": 5,
+            "subAggs": {
+                "brand": "FORD"
+            }
+        },
+        {
+            "id": "CLASSIC",
+            "name": "CLASSIC",
+            "count": 5,
+            "subAggs": {
+                "brand": "CHEVROLET"
+            }
+        },
+        {
+            "id": "COOPER",
+            "name": "COOPER",
+            "count": 5,
+            "subAggs": {
+                "brand": "MINI"
+            }
+        },
+        {
+            "id": "CRETA",
+            "name": "CRETA",
+            "count": 5,
+            "subAggs": {
+                "brand": "HYUNDAI"
+            }
+        },
+        {
+            "id": "ETIOS",
+            "name": "ETIOS",
+            "count": 5,
+            "subAggs": {
+                "brand": "TOYOTA"
+            }
+        },
+        {
+            "id": "F-PACE",
+            "name": "F-PACE",
+            "count": 5,
+            "subAggs": {
+                "brand": "JAGUAR"
+            }
+        },
+        {
+            "id": "FUSCA",
+            "name": "FUSCA",
+            "count": 5,
+            "subAggs": {
+                "brand": "VOLKSWAGEN"
+            }
+        },
+        {
+            "id": "GLC 250",
+            "name": "GLC 250",
+            "count": 5,
+            "subAggs": {
+                "brand": "MERCEDES-BENZ"
+            }
+        },
+        {
+            "id": "GRAND SIENA",
+            "name": "GRAND SIENA",
+            "count": 5,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "HILUX SW4",
+            "name": "HILUX SW4",
+            "count": 5,
+            "subAggs": {
+                "brand": "TOYOTA"
+            }
+        },
+        {
+            "id": "I3",
+            "name": "I3",
+            "count": 5,
+            "subAggs": {
+                "brand": "BMW"
+            }
+        },
+        {
+            "id": "PUNTO",
+            "name": "PUNTO",
+            "count": 5,
+            "subAggs": {
+                "brand": "FIAT"
+            }
+        },
+        {
+            "id": "Q3",
+            "name": "Q3",
+            "count": 5,
+            "subAggs": {
+                "brand": "AUDI"
+            }
+        },
+        {
+            "id": "RANGE ROVER EVOQUE",
+            "name": "RANGE ROVER EVOQUE",
+            "count": 5,
+            "subAggs": {
+                "brand": "LAND ROVER"
+            }
+        },
+        {
+            "id": "RANGE ROVER SPORT",
+            "name": "RANGE ROVER SPORT",
+            "count": 5,
+            "subAggs": {
+                "brand": "LAND ROVER"
+            }
+        },
+        {
+            "id": "SANTA FE",
+            "name": "SANTA FE",
+            "count": 5,
+            "subAggs": {
+                "brand": "HYUNDAI"
+            }
+        }
+    ],
+    "version": [
+        {
+            "id": "1.6 TGDI MHEV EX PRESTIGE DCT",
+            "name": "1.6 TGDI MHEV EX PRESTIGE DCT",
+            "count": 40
+        },
+        {
+            "id": "1.0 EVO FLEX LIKE. MANUAL",
+            "name": "1.0 EVO FLEX LIKE. MANUAL",
+            "count": 19
+        },
+        {
+            "id": "1.0 12V SCE FLEX ZEN MANUAL",
+            "name": "1.0 12V SCE FLEX ZEN MANUAL",
+            "count": 17
+        },
+        {
+            "id": "1.0 MPFI LT 8V FLEX 4P MANUAL",
+            "name": "1.0 MPFI LT 8V FLEX 4P MANUAL",
+            "count": 17
+        },
+        {
+            "id": "1.0 FIREFLY FLEX MANUAL",
+            "name": "1.0 FIREFLY FLEX MANUAL",
+            "count": 16
+        },
+        {
+            "id": "1.0 TI-VCT FLEX SE MANUAL",
+            "name": "1.0 TI-VCT FLEX SE MANUAL",
+            "count": 16
+        },
+        {
+            "id": "1.6 16V THP GASOLINA GT PACK AUTOMÁTICO",
+            "name": "1.6 16V THP GASOLINA GT PACK AUTOMÁTICO",
+            "count": 16
+        },
+        {
+            "id": "1.6 GDI HEV SX PRESTIGE DCT",
+            "name": "1.6 GDI HEV SX PRESTIGE DCT",
+            "count": 16
+        },
+        {
+            "id": "SX Prestige 1.6 GDI (Híbrido)",
+            "name": "SX Prestige 1.6 GDI (Híbrido)",
+            "count": 16
+        },
+        {
+            "id": "1.6 16V FLEX ALLURE PACK 4P AUTOMÁTICO",
+            "name": "1.6 16V FLEX ALLURE PACK 4P AUTOMÁTICO",
+            "count": 15
+        },
+        {
+            "id": "1.8 16V FLEX EX 4P AUTOMATICO",
+            "name": "1.8 16V FLEX EX 4P AUTOMATICO",
+            "count": 15
+        },
+        {
+            "id": "1.4 250 TSI TOTAL FLEX HIGHLINE AUTOMÁTICO",
+            "name": "1.4 250 TSI TOTAL FLEX HIGHLINE AUTOMÁTICO",
+            "count": 14
+        },
+        {
+            "id": "1.4 MPFI LT 8V FLEX 4P MANUAL",
+            "name": "1.4 MPFI LT 8V FLEX 4P MANUAL",
+            "count": 13
+        },
+        {
+            "id": "1.6 VTI 120 FLEX FEEL EAT6",
+            "name": "1.6 VTI 120 FLEX FEEL EAT6",
+            "count": 13
+        },
+        {
+            "id": "1.0 EXPRESSION 16V FLEX 4P MANUAL",
+            "name": "1.0 EXPRESSION 16V FLEX 4P MANUAL",
+            "count": 12
+        },
+        {
+            "id": "1.0 MPFI JOY 8V FLEX 4P MANUAL",
+            "name": "1.0 MPFI JOY 8V FLEX 4P MANUAL",
+            "count": 12
+        },
+        {
+            "id": "208 style 1.0 Flex 6V 5p Mec",
+            "name": "208 style 1.0 Flex 6V 5p Mec",
+            "count": 12
+        },
+        {
+            "id": "1.0 12V MPI TOTALFLEX 4P MANUAL",
+            "name": "1.0 12V MPI TOTALFLEX 4P MANUAL",
+            "count": 11
+        },
+        {
+            "id": "1.3 T270 TURBO FLEX SPORT AT6",
+            "name": "1.3 T270 TURBO FLEX SPORT AT6",
+            "count": 11
+        },
+        {
+            "id": "1.4 250 TSI TOTAL FLEX ALLSPACE COMFORTLINE TIPTRONIC",
+            "name": "1.4 250 TSI TOTAL FLEX ALLSPACE COMFORTLINE TIPTRONIC",
+            "count": 11
+        },
+        {
+            "id": "1.4 250 TSI TOTAL FLEX COMFORTLINE TIPTRONIC",
+            "name": "1.4 250 TSI TOTAL FLEX COMFORTLINE TIPTRONIC",
+            "count": 11
+        },
+        {
+            "id": "1.6 16V FLEXSTART SENSE XTRONIC",
+            "name": "1.6 16V FLEXSTART SENSE XTRONIC",
+            "count": 11
+        },
+        {
+            "id": "1.0 FIREFLY FLEX DRIVE MANUAL",
+            "name": "1.0 FIREFLY FLEX DRIVE MANUAL",
+            "count": 10
+        },
+        {
+            "id": "1.0 200 TSI TOTAL FLEX COMFORTLINE AUTOMÁTICO",
+            "name": "1.0 200 TSI TOTAL FLEX COMFORTLINE AUTOMÁTICO",
+            "count": 9
+        },
+        {
+            "id": "1.0 FLEX LT MANUAL",
+            "name": "1.0 FLEX LT MANUAL",
+            "count": 9
+        },
+        {
+            "id": "1.0 MI 8V FLEX 4P MANUAL",
+            "name": "1.0 MI 8V FLEX 4P MANUAL",
+            "count": 9
+        },
+        {
+            "id": "1.4 MPI FURGAO ENDURANCE 8V FLEX 2P MANUAL",
+            "name": "1.4 MPI FURGAO ENDURANCE 8V FLEX 2P MANUAL",
+            "count": 9
+        },
+        {
+            "id": "1.6 GRIFFE PACK THP 16V GASOLINA 4P AUTOMATICO",
+            "name": "1.6 GRIFFE PACK THP 16V GASOLINA 4P AUTOMATICO",
+            "count": 9
+        },
+        {
+            "id": "1.8 16V FLEX EXL 4P AUTOMATICO",
+            "name": "1.8 16V FLEX EXL 4P AUTOMATICO",
+            "count": 9
+        },
+        {
+            "id": "2.0 16V FLEX LIMITED AUTOMÁTICO",
+            "name": "2.0 16V FLEX LIMITED AUTOMÁTICO",
+            "count": 9
+        },
+        {
+            "id": "2.0 16V FLEXONE EXL 4P CVT",
+            "name": "2.0 16V FLEXONE EXL 4P CVT",
+            "count": 9
+        },
+        {
+            "id": "2.0 LX 4X2 16V FLEX 4P AUTOMATICO",
+            "name": "2.0 LX 4X2 16V FLEX 4P AUTOMATICO",
+            "count": 9
+        },
+        {
+            "id": "ALLURE 1.6 16V FLEX ALLURE 4P AUTOMATICO",
+            "name": "ALLURE 1.6 16V FLEX ALLURE 4P AUTOMATICO",
+            "count": 9
+        },
+        {
+            "id": "1.0 12V FLEX VISION MANUAL",
+            "name": "1.0 12V FLEX VISION MANUAL",
+            "count": 8
+        },
+        {
+            "id": "1.0 200 TSI TOTAL FLEX HIGHLINE AUTOMÁTICO",
+            "name": "1.0 200 TSI TOTAL FLEX HIGHLINE AUTOMÁTICO",
+            "count": 8
+        },
+        {
+            "id": "1.0 FIRE FLEX ATTRACTIVE MANUAL",
+            "name": "1.0 FIRE FLEX ATTRACTIVE MANUAL",
+            "count": 8
+        },
+        {
+            "id": "2.0 Turbo ActiveFlex 16V/GP",
+            "name": "2.0 Turbo ActiveFlex 16V/GP",
+            "count": 8
+        },
+        {
+            "id": "1.0 200 TSI COMFORTLINE AUTOMATICO",
+            "name": "1.0 200 TSI COMFORTLINE AUTOMATICO",
+            "count": 7
+        },
+        {
+            "id": "1.0 COMFORT 12V FLEX 4P MANUAL",
+            "name": "1.0 COMFORT 12V FLEX 4P MANUAL",
+            "count": 7
+        },
+        {
+            "id": "1.0 COMFORT PLUS 12V FLEX 4P MANUAL",
+            "name": "1.0 COMFORT PLUS 12V FLEX 4P MANUAL",
+            "count": 7
+        },
+        {
+            "id": "1.0 FLEX MANUAL",
+            "name": "1.0 FLEX MANUAL",
+            "count": 7
+        },
+        {
+            "id": "1.0 TURBO FLEX LT AUTOMÁTICO",
+            "name": "1.0 TURBO FLEX LT AUTOMÁTICO",
+            "count": 7
+        },
+        {
+            "id": "1.0 TURBO FLEX LT MANUAL",
+            "name": "1.0 TURBO FLEX LT MANUAL",
+            "count": 7
+        },
+        {
+            "id": "1.3 T270 TURBO FLEX LONGITUDE AT6",
+            "name": "1.3 T270 TURBO FLEX LONGITUDE AT6",
+            "count": 7
+        },
+        {
+            "id": "1.6 16V FLEX LIKE MANUAL",
+            "name": "1.6 16V FLEX LIKE MANUAL",
+            "count": 7
+        },
+        {
+            "id": "1.6 16V THP FLEX GRIFFE 4P AUTOMÁTICO",
+            "name": "1.6 16V THP FLEX GRIFFE 4P AUTOMÁTICO",
+            "count": 7
+        },
+        {
+            "id": "2.0 16V FLEXONE EX 4P CVT",
+            "name": "2.0 16V FLEXONE EX 4P CVT",
+            "count": 7
+        },
+        {
+            "id": "2.0 16V TSI BLUEMOTION GASOLINA HIGHLINE 4P DSG",
+            "name": "2.0 16V TSI BLUEMOTION GASOLINA HIGHLINE 4P DSG",
+            "count": 7
+        },
+        {
+            "id": "2.0 XEI 16V FLEX 4P AUTOMATICO",
+            "name": "2.0 XEI 16V FLEX 4P AUTOMATICO",
+            "count": 7
+        },
+        {
+            "id": "1.0 12V MPI TOTAL FLEX 4P MANUAL",
+            "name": "1.0 12V MPI TOTAL FLEX 4P MANUAL",
+            "count": 6
+        },
+        {
+            "id": "1.0 MPFI LS 8V FLEX 4P MANUAL",
+            "name": "1.0 MPFI LS 8V FLEX 4P MANUAL",
+            "count": 6
+        },
+        {
+            "id": "1.3 FIREFLY FLEX DRIVE MANUAL",
+            "name": "1.3 FIREFLY FLEX DRIVE MANUAL",
+            "count": 6
+        },
+        {
+            "id": "1.3 TCE FLEX ICONIC X-TRONIC",
+            "name": "1.3 TCE FLEX ICONIC X-TRONIC",
+            "count": 6
+        },
+        {
+            "id": "1.4 MPFI LT 8V FLEX 4P AUTOMATICO",
+            "name": "1.4 MPFI LT 8V FLEX 4P AUTOMATICO",
+            "count": 6
+        },
+        {
+            "id": "1.4 MPFI LTZ 8V FLEX 4P AUTOMATICO",
+            "name": "1.4 MPFI LTZ 8V FLEX 4P AUTOMATICO",
+            "count": 6
+        },
+        {
+            "id": "1.4 MPFI LTZ 8V FLEX 4P MANUAL",
+            "name": "1.4 MPFI LTZ 8V FLEX 4P MANUAL",
+            "count": 6
+        },
+        {
+            "id": "1.5 MIVEC TURBO GASOLINA HPE-S CVT",
+            "name": "1.5 MIVEC TURBO GASOLINA HPE-S CVT",
+            "count": 6
+        },
+        {
+            "id": "1.5 S HATCH 16V FLEX 4P MANUAL",
+            "name": "1.5 S HATCH 16V FLEX 4P MANUAL",
+            "count": 6
+        },
+        {
+            "id": "1.8 16V FLEX LONGITUDE 4P AUTOMATICO",
+            "name": "1.8 16V FLEX LONGITUDE 4P AUTOMATICO",
+            "count": 6
+        },
+        {
+            "id": "2.0 4X2 16V GASOLINA 4P AUTOMATICO",
+            "name": "2.0 4X2 16V GASOLINA 4P AUTOMATICO",
+            "count": 6
+        },
+        {
+            "id": "3.6 RT V6 GASOLINA 4P AUTOMATICO",
+            "name": "3.6 RT V6 GASOLINA 4P AUTOMATICO",
+            "count": 6
+        },
+        {
+            "id": "1.0  12V FLEX LT MANUAL",
+            "name": "1.0  12V FLEX LT MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.0 12V FLEX EVOLUTION MANUAL",
+            "name": "1.0 12V FLEX EVOLUTION MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.0 12V FLEX SENSE MANUAL",
+            "name": "1.0 12V FLEX SENSE MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.0 200 TSI HIGHLINE AUTOMATICO",
+            "name": "1.0 200 TSI HIGHLINE AUTOMATICO",
+            "count": 5
+        },
+        {
+            "id": "1.0 MPI ATTRACTIVE 8V FLEX 4P MANUAL",
+            "name": "1.0 MPI ATTRACTIVE 8V FLEX 4P MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.0 VVT TURBO IFLEX PLUS CVT",
+            "name": "1.0 VVT TURBO IFLEX PLUS CVT",
+            "count": 5
+        },
+        {
+            "id": "1.2 ACTIVE 12V FLEX 4P MANUAL",
+            "name": "1.2 ACTIVE 12V FLEX 4P MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.3 8V GASOLINA 2P MANUAL",
+            "name": "1.3 8V GASOLINA 2P MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.3 T270 Turbo Flex Longitude At6",
+            "name": "1.3 T270 Turbo Flex Longitude At6",
+            "count": 5
+        },
+        {
+            "id": "1.3 T270 Turbo Flex Sport At6",
+            "name": "1.3 T270 Turbo Flex Sport At6",
+            "count": 5
+        },
+        {
+            "id": "1.4 250 TSI EXCLUSIVE AUTOMÁTICO",
+            "name": "1.4 250 TSI EXCLUSIVE AUTOMÁTICO",
+            "count": 5
+        },
+        {
+            "id": "1.4 LX 16V FLEX 4P MANUAL",
+            "name": "1.4 LX 16V FLEX 4P MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.4 MPFI LS CS 8V FLEX 2P MANUAL",
+            "name": "1.4 MPFI LS CS 8V FLEX 2P MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.5 16V TURBO GASOLINA TOURING 4P CVT",
+            "name": "1.5 16V TURBO GASOLINA TOURING 4P CVT",
+            "count": 5
+        },
+        {
+            "id": "1.5 LX 16V FLEX 4P AUTOMATICO",
+            "name": "1.5 LX 16V FLEX 4P AUTOMATICO",
+            "count": 5
+        },
+        {
+            "id": "1.5 VVT TURBO iFLEX GSX CVT",
+            "name": "1.5 VVT TURBO iFLEX GSX CVT",
+            "count": 5
+        },
+        {
+            "id": "1.6 16V FLEX ALLURE 4P AUTOMATICO",
+            "name": "1.6 16V FLEX ALLURE 4P AUTOMATICO",
+            "count": 5
+        },
+        {
+            "id": "1.6 16V FLEXSTART ACTIVE XTRONIC",
+            "name": "1.6 16V FLEXSTART ACTIVE XTRONIC",
+            "count": 5
+        },
+        {
+            "id": "1.6 16V FLEXSTART S 4P XTRONIC",
+            "name": "1.6 16V FLEXSTART S 4P XTRONIC",
+            "count": 5
+        },
+        {
+            "id": "1.6 16V FLEXSTART SENSE MANUAL",
+            "name": "1.6 16V FLEXSTART SENSE MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.6 16V SCE FLEX STEPWAY ZEN MANUAL",
+            "name": "1.6 16V SCE FLEX STEPWAY ZEN MANUAL",
+            "count": 5
+        },
+        {
+            "id": "1.6 16V THP GASOLINA GRIFFE AUTOMÁTICO",
+            "name": "1.6 16V THP GASOLINA GRIFFE AUTOMÁTICO",
+            "count": 5
+        },
+        {
+            "id": "2.0 16V TURBO GASOLINA SPORT GP AUTOMÁTICO",
+            "name": "2.0 16V TURBO GASOLINA SPORT GP AUTOMÁTICO",
+            "count": 5
+        },
+        {
+            "id": "0.6 HÍBRIDO REX 4P AUTOMÁTICO",
+            "name": "0.6 HÍBRIDO REX 4P AUTOMÁTICO",
+            "count": 4
+        },
+        {
+            "id": "1.0 12V SCE FLEX INTENSE MANUAL",
+            "name": "1.0 12V SCE FLEX INTENSE MANUAL",
+            "count": 4
+        },
+        {
+            "id": "1.0 200 TSI COMFORTLINE AUTOMÁTICO",
+            "name": "1.0 200 TSI COMFORTLINE AUTOMÁTICO",
+            "count": 4
+        },
+        {
+            "id": "1.0 AUTHENTIQUE 16V FLEX 4P MANUAL",
+            "name": "1.0 AUTHENTIQUE 16V FLEX 4P MANUAL",
+            "count": 4
+        },
+        {
+            "id": "1.0 MPFI LIFE 8V FLEX 4P MANUAL",
+            "name": "1.0 MPFI LIFE 8V FLEX 4P MANUAL",
+            "count": 4
+        },
+        {
+            "id": "1.0 MPI 8V FLEX 2P MANUAL",
+            "name": "1.0 MPI 8V FLEX 2P MANUAL",
+            "count": 4
+        },
+        {
+            "id": "1.0 MPI MOVE UP 12V FLEX 4P MANUAL",
+            "name": "1.0 MPI MOVE UP 12V FLEX 4P MANUAL",
+            "count": 4
+        },
+        {
+            "id": "1.0 MPI TAKE UP 12V FLEX 4P MANUAL",
+            "name": "1.0 MPI TAKE UP 12V FLEX 4P MANUAL",
+            "count": 4
+        },
+        {
+            "id": "1.0 TURBO FLEX LTZ AUTOMÁTICO",
+            "name": "1.0 TURBO FLEX LTZ AUTOMÁTICO",
+            "count": 4
+        },
+        {
+            "id": "1.4 I GLX 8V FLEX 4P MANUAL",
+            "name": "1.4 I GLX 8V FLEX 4P MANUAL",
+            "count": 4
+        },
+        {
+            "id": "1.4 TFSI FLEX SEDAN PRESTIGE PLUS TIPTRONIC",
+            "name": "1.4 TFSI FLEX SEDAN PRESTIGE PLUS TIPTRONIC",
+            "count": 4
+        },
+        {
+            "id": "1.4 TFSI GASOLINA SPORTBACK PRESTIGE PLUS S-TRONIC",
+            "name": "1.4 TFSI GASOLINA SPORTBACK PRESTIGE PLUS S-TRONIC",
+            "count": 4
+        },
+        {
+            "id": "1.4 TFSI SPORTBACK AMBIENTE 16V GASOLINA 4P S-TRONIC",
+            "name": "1.4 TFSI SPORTBACK AMBIENTE 16V GASOLINA 4P S-TRONIC",
+            "count": 4
+        },
+        {
+            "id": "1.4 TURBO LT 16V FLEX 4P AUTOMÁTICO",
+            "name": "1.4 TURBO LT 16V FLEX 4P AUTOMÁTICO",
+            "count": 4
+        },
+        {
+            "id": "1.5 12V TWINPOWER GASOLINA 4P STEPTRONIC",
+            "name": "1.5 12V TWINPOWER GASOLINA 4P STEPTRONIC",
+            "count": 4
+        },
+        {
+            "id": "1.5 T5 RECHARGE INSCRIPTION EXPRESSION GEARTRONIC",
+            "name": "1.5 T5 RECHARGE INSCRIPTION EXPRESSION GEARTRONIC",
+            "count": 4
+        }
+    ],
+    "year": [
+        {
+            "id": 2024,
+            "name": 2024,
+            "count": 63
+        },
+        {
+            "id": 2023,
+            "name": 2023,
+            "count": 192
+        },
+        {
+            "id": 2022,
+            "name": 2022,
+            "count": 317
+        },
+        {
+            "id": 2021,
+            "name": 2021,
+            "count": 195
+        },
+        {
+            "id": 2020,
+            "name": 2020,
+            "count": 222
+        },
+        {
+            "id": 2019,
+            "name": 2019,
+            "count": 176
+        },
+        {
+            "id": 2018,
+            "name": 2018,
+            "count": 125
+        },
+        {
+            "id": 2017,
+            "name": 2017,
+            "count": 75
+        },
+        {
+            "id": 2016,
+            "name": 2016,
+            "count": 97
+        },
+        {
+            "id": 2015,
+            "name": 2015,
+            "count": 83
+        },
+        {
+            "id": 2014,
+            "name": 2014,
+            "count": 108
+        },
+        {
+            "id": 2013,
+            "name": 2013,
+            "count": 66
+        },
+        {
+            "id": 2012,
+            "name": 2012,
+            "count": 51
+        },
+        {
+            "id": 2011,
+            "name": 2011,
+            "count": 40
+        },
+        {
+            "id": 2010,
+            "name": 2010,
+            "count": 14
+        },
+        {
+            "id": 2009,
+            "name": 2009,
+            "count": 17
+        },
+        {
+            "id": 2008,
+            "name": 2008,
+            "count": 14
+        },
+        {
+            "id": 2007,
+            "name": 2007,
+            "count": 13
+        },
+        {
+            "id": 2006,
+            "name": 2006,
+            "count": 7
+        },
+        {
+            "id": 2005,
+            "name": 2005,
+            "count": 4
+        },
+        {
+            "id": 2004,
+            "name": 2004,
+            "count": 2
+        },
+        {
+            "id": 2003,
+            "name": 2003,
+            "count": 2
+        },
+        {
+            "id": 2000,
+            "name": 2000,
+            "count": 1
+        },
+        {
+            "id": 1999,
+            "name": 1999,
+            "count": 1
+        },
+        {
+            "id": 1995,
+            "name": 1995,
+            "count": 1
+        },
+        {
+            "id": 1993,
+            "name": 1993,
+            "count": 4
+        },
+        {
+            "id": 1989,
+            "name": 1989,
+            "count": 6
+        },
+        {
+            "id": 1982,
+            "name": 1982,
+            "count": 4
+        },
+        {
+            "id": 1978,
+            "name": 1978,
+            "count": 1
+        },
+        {
+            "id": 1974,
+            "name": 1974,
+            "count": 1
+        }
+    ],
+    "price": [
+        {
+            "id": 0,
+            "min": 0,
+            "max": 56944
+        },
+        {
+            "id": 1,
+            "min": 56945,
+            "max": 126811
+        },
+        {
+            "id": 2,
+            "min": 126812,
+            "max": null
+        }
+    ],
+    "minAndMaxPrice": [
+        {
+            "id": "minAndMaxPrice",
+            "name": "minAndMaxPrice",
+            "min": 14900,
+            "max": 1371550
+        }
+    ],
+    "minAndMaxMileage": [],
+    "mileage": [
+        {
+            "id": 0,
+            "min": 0,
+            "max": 27960
+        },
+        {
+            "id": 1,
+            "min": 27961,
+            "max": 58911
+        },
+        {
+            "id": 2,
+            "min": 58912,
+            "max": 106410
+        },
+        {
+            "id": 3,
+            "min": 106411,
+            "max": null
+        }
+    ],
+    "optionals": [
+        {
+            "id": "Estepe de uso temporário",
+            "name": "Estepe de uso temporário",
+            "count": 1281
+        },
+        {
+            "id": "Cintos de segurança dianteiros retráteis com regulagem de altura",
+            "name": "Cintos de segurança dianteiros retráteis com regulagem de altura",
+            "count": 1242
+        },
+        {
+            "id": "Porta-copos no console",
+            "name": "Porta-copos no console",
+            "count": 1236
+        },
+        {
+            "id": "Air-bag duplo",
+            "name": "Air-bag duplo",
+            "count": 1213
+        },
+        {
+            "id": "Vidros elétricos com função um toque",
+            "name": "Vidros elétricos com função um toque",
+            "count": 1191
+        },
+        {
+            "id": "Computador de bordo",
+            "name": "Computador de bordo",
+            "count": 1121
+        },
+        {
+            "id": "Sistema de freios ABS",
+            "name": "Sistema de freios ABS",
+            "count": 1100
+        },
+        {
+            "id": "Porta-copos / garrafas nas portas dianteiras",
+            "name": "Porta-copos / garrafas nas portas dianteiras",
+            "count": 1088
+        },
+        {
+            "id": "Volante com regulagem de altura e de profundidade",
+            "name": "Volante com regulagem de altura e de profundidade",
+            "count": 1053
+        },
+        {
+            "id": "Bancos elétricos",
+            "name": "Bancos elétricos",
+            "count": 1031
+        },
+        {
+            "id": "Bluetooth",
+            "name": "Bluetooth",
+            "count": 988
+        },
+        {
+            "id": "Alarme com controle remoto",
+            "name": "Alarme com controle remoto",
+            "count": 975
+        },
+        {
+            "id": "Sistema ISOFIX / LATCH",
+            "name": "Sistema ISOFIX / LATCH",
+            "count": 962
+        },
+        {
+            "id": "Controle elétrico para os retrovisores",
+            "name": "Controle elétrico para os retrovisores",
+            "count": 954
+        },
+        {
+            "id": "Vidros elétricos nas portas traseiras",
+            "name": "Vidros elétricos nas portas traseiras",
+            "count": 929
+        },
+        {
+            "id": "Comando de rádio no volante",
+            "name": "Comando de rádio no volante",
+            "count": 915
+        },
+        {
+            "id": "Direção elétrica",
+            "name": "Direção elétrica",
+            "count": 915
+        },
+        {
+            "id": "Entrada USB",
+            "name": "Entrada USB",
+            "count": 800
+        },
+        {
+            "id": "Central multimídia",
+            "name": "Central multimídia",
+            "count": 756
+        },
+        {
+            "id": "Porta-copos / garrafas nas portas traseiras",
+            "name": "Porta-copos / garrafas nas portas traseiras",
+            "count": 746
+        },
+        {
+            "id": "Ar condicionado",
+            "name": "Ar condicionado",
+            "count": 728
+        },
+        {
+            "id": "Piloto automático",
+            "name": "Piloto automático",
+            "count": 728
+        },
+        {
+            "id": "Para-choque dianteiro na cor do veículo",
+            "name": "Para-choque dianteiro na cor do veículo",
+            "count": 688
+        },
+        {
+            "id": "Controle eletrônico de tração - ASR",
+            "name": "Controle eletrônico de tração - ASR",
+            "count": 686
+        },
+        {
+            "id": "Controle eletrônico de estabilidade - ESP",
+            "name": "Controle eletrônico de estabilidade - ESP",
+            "count": 679
+        },
+        {
+            "id": "Volante revestido em couro",
+            "name": "Volante revestido em couro",
+            "count": 664
+        },
+        {
+            "id": "Farol de neblina em LED",
+            "name": "Farol de neblina em LED",
+            "count": 645
+        },
+        {
+            "id": "Sensor de estacionamento traseiro",
+            "name": "Sensor de estacionamento traseiro",
+            "count": 635
+        },
+        {
+            "id": "Descanso de braço entre os bancos dianteiros",
+            "name": "Descanso de braço entre os bancos dianteiros",
+            "count": 625
+        },
+        {
+            "id": "Para-choque traseiro na cor do carro",
+            "name": "Para-choque traseiro na cor do carro",
+            "count": 622
+        },
+        {
+            "id": "Air-bags laterais dianteiros",
+            "name": "Air-bags laterais dianteiros",
+            "count": 591
+        },
+        {
+            "id": "Banco traseiro com encosto rebatível",
+            "name": "Banco traseiro com encosto rebatível",
+            "count": 585
+        },
+        {
+            "id": "Porta-copos traseiro no console central",
+            "name": "Porta-copos traseiro no console central",
+            "count": 574
+        },
+        {
+            "id": "Aros de roda em liga leve",
+            "name": "Aros de roda em liga leve",
+            "count": 532
+        },
+        {
+            "id": "Bagageiro no teto sem barras transversais",
+            "name": "Bagageiro no teto sem barras transversais",
+            "count": 523
+        },
+        {
+            "id": "Faróis com acendimento fotosensitivo",
+            "name": "Faróis com acendimento fotosensitivo",
+            "count": 495
+        },
+        {
+            "id": "Faróis diurnos em LED",
+            "name": "Faróis diurnos em LED",
+            "count": 461
+        },
+        {
+            "id": "Airbags para a cabeça",
+            "name": "Airbags para a cabeça",
+            "count": 433
+        },
+        {
+            "id": "Sistema de alarme ultrasom (volumétrico)",
+            "name": "Sistema de alarme ultrasom (volumétrico)",
+            "count": 397
+        },
+        {
+            "id": "Porta-copos no descansa-braço central traseiro",
+            "name": "Porta-copos no descansa-braço central traseiro",
+            "count": 385
+        },
+        {
+            "id": "Extensão traseira para ventilação ar condicionado",
+            "name": "Extensão traseira para ventilação ar condicionado",
+            "count": 384
+        },
+        {
+            "id": "Acionamento do motor por botão no painel",
+            "name": "Acionamento do motor por botão no painel",
+            "count": 367
+        },
+        {
+            "id": "Sensor de Chuva",
+            "name": "Sensor de Chuva",
+            "count": 343
+        },
+        {
+            "id": "Protetor do carter",
+            "name": "Protetor do carter",
+            "count": 333
+        },
+        {
+            "id": "Sistema auxiliar de estacionamento com guias",
+            "name": "Sistema auxiliar de estacionamento com guias",
+            "count": 333
+        },
+        {
+            "id": "Rádio AM/FM estéreo, CD player, MP3",
+            "name": "Rádio AM/FM estéreo, CD player, MP3",
+            "count": 327
+        },
+        {
+            "id": "Direção hidráulica",
+            "name": "Direção hidráulica",
+            "count": 326
+        },
+        {
+            "id": "Troca de marchas no volante",
+            "name": "Troca de marchas no volante",
+            "count": 315
+        },
+        {
+            "id": "Espelho retrovisor interno eletrocrômico",
+            "name": "Espelho retrovisor interno eletrocrômico",
+            "count": 310
+        },
+        {
+            "id": "Sistema de GPS com indicação por voz",
+            "name": "Sistema de GPS com indicação por voz",
+            "count": 299
+        },
+        {
+            "id": "Sensor de estacionamento dianteiro",
+            "name": "Sensor de estacionamento dianteiro",
+            "count": 251
+        },
+        {
+            "id": "Aros de roda em aço",
+            "name": "Aros de roda em aço",
+            "count": 247
+        },
+        {
+            "id": "Bancos revestidos em couro",
+            "name": "Bancos revestidos em couro",
+            "count": 246
+        },
+        {
+            "id": "Sistema Start/Stop",
+            "name": "Sistema Start/Stop",
+            "count": 235
+        },
+        {
+            "id": "Lanterna traseira de neblina integrada",
+            "name": "Lanterna traseira de neblina integrada",
+            "count": 225
+        },
+        {
+            "id": "Lanterna traseira com sistema LED",
+            "name": "Lanterna traseira com sistema LED",
+            "count": 172
+        },
+        {
+            "id": "Faróis com ajuste automático de altura",
+            "name": "Faróis com ajuste automático de altura",
+            "count": 168
+        },
+        {
+            "id": "Coifa da alavanca de câmbio em couro",
+            "name": "Coifa da alavanca de câmbio em couro",
+            "count": 165
+        },
+        {
+            "id": "Computador de Bordo",
+            "name": "Computador de Bordo",
+            "count": 164
+        },
+        {
+            "id": "Bancos revestidos em couro sintético",
+            "name": "Bancos revestidos em couro sintético",
+            "count": 132
+        },
+        {
+            "id": "Air-bag para joelhos passageiro",
+            "name": "Air-bag para joelhos passageiro",
+            "count": 110
+        },
+        {
+            "id": "Sistema de controle de descidas",
+            "name": "Sistema de controle de descidas",
+            "count": 107
+        },
+        {
+            "id": "Faróis com acendimento automático",
+            "name": "Faróis com acendimento automático",
+            "count": 104
+        },
+        {
+            "id": "Piloto automático com sensor ativo de distância",
+            "name": "Piloto automático com sensor ativo de distância",
+            "count": 89
+        },
+        {
+            "id": "Teto solar panorâmico",
+            "name": "Teto solar panorâmico",
+            "count": 85
+        },
+        {
+            "id": "Banco do passageiro com regulagem na lombar",
+            "name": "Banco do passageiro com regulagem na lombar",
+            "count": 84
+        },
+        {
+            "id": "Câmera sensor de estacionamento traseiro",
+            "name": "Câmera sensor de estacionamento traseiro",
+            "count": 76
+        },
+        {
+            "id": "Tampa traseira com chave (Pick-up)",
+            "name": "Tampa traseira com chave (Pick-up)",
+            "count": 73
+        },
+        {
+            "id": "Sensor de mudança de faixa ativo",
+            "name": "Sensor de mudança de faixa ativo",
+            "count": 71
+        },
+        {
+            "id": "Direção eletro hidráulica",
+            "name": "Direção eletro hidráulica",
+            "count": 54
+        },
+        {
+            "id": "Sistema auxiliar de estacionamento com medidor de vaga",
+            "name": "Sistema auxiliar de estacionamento com medidor de vaga",
+            "count": 49
+        },
+        {
+            "id": "Porta-copos na tampa do porta-luvas",
+            "name": "Porta-copos na tampa do porta-luvas",
+            "count": 48
+        },
+        {
+            "id": "Vidros elétricos",
+            "name": "Vidros elétricos",
+            "count": 45
+        },
+        {
+            "id": "Cd Player",
+            "name": "Cd Player",
+            "count": 37
+        },
+        {
+            "id": "Luz de cortesia na caçamba",
+            "name": "Luz de cortesia na caçamba",
+            "count": 36
+        },
+        {
+            "id": "Descanso de braço do motorista",
+            "name": "Descanso de braço do motorista",
+            "count": 35
+        },
+        {
+            "id": "Faróis com lâmpadas de Xenônio",
+            "name": "Faróis com lâmpadas de Xenônio",
+            "count": 28
+        },
+        {
+            "id": "Bancos revestidos em tecido e couro",
+            "name": "Bancos revestidos em tecido e couro",
+            "count": 27
+        },
+        {
+            "id": "Porta-copos no painel",
+            "name": "Porta-copos no painel",
+            "count": 27
+        },
+        {
+            "id": "Faróis principais com sistema LED",
+            "name": "Faróis principais com sistema LED",
+            "count": 22
+        },
+        {
+            "id": "Protetor do tanque de combustível",
+            "name": "Protetor do tanque de combustível",
+            "count": 20
+        },
+        {
+            "id": "Air-bag para o motorista",
+            "name": "Air-bag para o motorista",
+            "count": 19
+        },
+        {
+            "id": "Teto solar duplo",
+            "name": "Teto solar duplo",
+            "count": 14
+        },
+        {
+            "id": "Teto panorâmico em vidro",
+            "name": "Teto panorâmico em vidro",
+            "count": 10
+        },
+        {
+            "id": "Descansos de braço dianteiros individuais",
+            "name": "Descansos de braço dianteiros individuais",
+            "count": 9
+        },
+        {
+            "id": "Porta-copos sobre o painel",
+            "name": "Porta-copos sobre o painel",
+            "count": 9
+        },
+        {
+            "id": "Bancos revestidos em couro luxo",
+            "name": "Bancos revestidos em couro luxo",
+            "count": 8
+        },
+        {
+            "id": "Bancos revestidos em couro Alcantara",
+            "name": "Bancos revestidos em couro Alcantara",
+            "count": 7
+        },
+        {
+            "id": "Vidros elétricos dianteiros",
+            "name": "Vidros elétricos dianteiros",
+            "count": 3
+        },
+        {
+            "id": "Vidros elétricos dianteiros com descida/subida continua",
+            "name": "Vidros elétricos dianteiros com descida/subida continua",
+            "count": 3
+        },
+        {
+            "id": "Bancos revestidos em tecido e couro Alcantara",
+            "name": "Bancos revestidos em tecido e couro Alcantara",
+            "count": 2
+        },
+        {
+            "id": "Sistema de alarme operado por controle remoto",
+            "name": "Sistema de alarme operado por controle remoto",
+            "count": 2
+        },
+        {
+            "id": "Teto solar retrátil elétrico",
+            "name": "Teto solar retrátil elétrico",
+            "count": 2
+        },
+        {
+            "id": "Vidros elétricos traseiros",
+            "name": "Vidros elétricos traseiros",
+            "count": 2
+        },
+        {
+            "id": "Vidros elétricos traseiros com descida continua",
+            "name": "Vidros elétricos traseiros com descida continua",
+            "count": 2
+        },
+        {
+            "id": "Acionamento de luzes auxiliares em caso de frenagem brusca",
+            "name": "Acionamento de luzes auxiliares em caso de frenagem brusca",
+            "count": 1
+        },
+        {
+            "id": "Air-bags laterais traseiros",
+            "name": "Air-bags laterais traseiros",
+            "count": 1
+        },
+        {
+            "id": "Banco do motorista com regulagem elétrica da inclinação do encosto",
+            "name": "Banco do motorista com regulagem elétrica da inclinação do encosto",
+            "count": 1
+        },
+        {
+            "id": "Banco do motorista com regulagem elétrica de inclinação do assento",
+            "name": "Banco do motorista com regulagem elétrica de inclinação do assento",
+            "count": 1
+        },
+        {
+            "id": "Banco do motorista com regulagem elétrica longitudinal",
+            "name": "Banco do motorista com regulagem elétrica longitudinal",
+            "count": 1
+        },
+        {
+            "id": "Banco do passageiro com regulagem elétrica de altura",
+            "name": "Banco do passageiro com regulagem elétrica de altura",
+            "count": 1
+        },
+        {
+            "id": "Banco do passageiro com regulagem na lombar elétrica",
+            "name": "Banco do passageiro com regulagem na lombar elétrica",
+            "count": 1
+        },
+        {
+            "id": "CD player - 3 discos",
+            "name": "CD player - 3 discos",
+            "count": 1
+        },
+        {
+            "id": "DVD Player",
+            "name": "DVD Player",
+            "count": 1
+        },
+        {
+            "id": "Entrada auxiliar para MP3 portátil / I-pod",
+            "name": "Entrada auxiliar para MP3 portátil / I-pod",
+            "count": 1
+        },
+        {
+            "id": "Gancho para reboque dianteiro",
+            "name": "Gancho para reboque dianteiro",
+            "count": 1
+        },
+        {
+            "id": "Gancho para reboque traseiro",
+            "name": "Gancho para reboque traseiro",
+            "count": 1
+        },
+        {
+            "id": "Limpador do para-brisas com sensor de chuva",
+            "name": "Limpador do para-brisas com sensor de chuva",
+            "count": 1
+        },
+        {
+            "id": "Moldura paralama traseiro",
+            "name": "Moldura paralama traseiro",
+            "count": 1
+        },
+        {
+            "id": "Servotronic",
+            "name": "Servotronic",
+            "count": 1
+        },
+        {
+            "id": "Sistema de comando de voz",
+            "name": "Sistema de comando de voz",
+            "count": 1
+        },
+        {
+            "id": "Terceira Luz de freio de Led",
+            "name": "Terceira Luz de freio de Led",
+            "count": 1
+        },
+        {
+            "id": "Viva-voz com sistema Bluetooth",
+            "name": "Viva-voz com sistema Bluetooth",
+            "count": 1
+        }
+    ],
+    "transmission": [
+        {
+            "id": "Manual",
+            "name": "Manual",
+            "count": 666
+        },
+        {
+            "id": "Câmbio automático",
+            "name": "Câmbio automático",
+            "count": 426
+        },
+        {
+            "id": "",
+            "name": "",
+            "count": 378
+        },
+        {
+            "id": "Automático",
+            "name": "Automático",
+            "count": 191
+        },
+        {
+            "id": "CVT",
+            "name": "CVT",
+            "count": 148
+        },
+        {
+            "id": "DSG",
+            "name": "DSG",
+            "count": 63
+        },
+        {
+            "id": "Automatizada",
+            "name": "Automatizada",
+            "count": 27
+        },
+        {
+            "id": "CTV",
+            "name": "CTV",
+            "count": 2
+        },
+        {
+            "id": "Câmbio automático sequencial",
+            "name": "Câmbio automático sequencial",
+            "count": 1
+        }
+    ],
+    "armored": [
+        {
+            "id": "no",
+            "name": "no",
+            "count": 1902
+        }
+    ],
+    "fuel": [
+        {
+            "id": "Flex",
+            "name": "Flex",
+            "count": 1188
+        },
+        {
+            "id": "",
+            "name": "",
+            "count": 286
+        },
+        {
+            "id": "Gasolina",
+            "name": "Gasolina",
+            "count": 240
+        },
+        {
+            "id": "Diesel",
+            "name": "Diesel",
+            "count": 101
+        },
+        {
+            "id": "Híbrido",
+            "name": "Híbrido",
+            "count": 70
+        },
+        {
+            "id": "Elétrico",
+            "name": "Elétrico",
+            "count": 13
+        },
+        {
+            "id": "Álcool",
+            "name": "Álcool",
+            "count": 4
+        }
+    ],
+    "color": [
+        {
+            "id": "Branco",
+            "name": "Branco",
+            "count": 557,
+            "subAggs": {
+                "hexa": "#FFFFFF"
+            }
+        },
+        {
+            "id": "Preto",
+            "name": "Preto",
+            "count": 429,
+            "subAggs": {
+                "hexa": "#000000"
+            }
+        },
+        {
+            "id": "Prata",
+            "name": "Prata",
+            "count": 394,
+            "subAggs": {
+                "hexa": "#C0C0C0"
+            }
+        },
+        {
+            "id": "Cinza",
+            "name": "Cinza",
+            "count": 297,
+            "subAggs": {
+                "hexa": "#D0CECF"
+            }
+        },
+        {
+            "id": "Vermelho",
+            "name": "Vermelho",
+            "count": 104,
+            "subAggs": {
+                "hexa": "#FE0000"
+            }
+        },
+        {
+            "id": "Azul",
+            "name": "Azul",
+            "count": 74,
+            "subAggs": {
+                "hexa": "#1C00C8"
+            }
+        },
+        {
+            "id": "Verde",
+            "name": "Verde",
+            "count": 24,
+            "subAggs": {
+                "hexa": "#70AD46"
+            }
+        },
+        {
+            "id": "Marrom",
+            "name": "Marrom",
+            "count": 9,
+            "subAggs": {
+                "hexa": "#AF5400"
+            }
+        },
+        {
+            "id": "Bege",
+            "name": "Bege",
+            "count": 7,
+            "subAggs": {
+                "hexa": "#F1E1CA"
+            }
+        },
+        {
+            "id": "Vinho",
+            "name": "Vinho",
+            "count": 2,
+            "subAggs": {
+                "hexa": "#561C28"
+            }
+        },
+        {
+            "id": "Amarelo",
+            "name": "Amarelo",
+            "count": 1,
+            "subAggs": {
+                "hexa": "#FFF501"
+            }
+        },
+        {
+            "id": "Bronze",
+            "name": "Bronze",
+            "count": 1,
+            "subAggs": {
+                "hexa": "#AB5D46"
+            }
+        },
+        {
+            "id": "Dourado",
+            "name": "Dourado",
+            "count": 1,
+            "subAggs": {
+                "hexa": "#DDBA4F"
+            }
+        },
+        {
+            "id": "Indefinida",
+            "name": "Indefinida",
+            "count": 1,
+            "subAggs": {
+                "hexa": "#"
+            }
+        },
+        {
+            "id": "Laranja",
+            "name": "Laranja",
+            "count": 1,
+            "subAggs": {
+                "hexa": "#FFC700"
+            }
+        }
+    ],
+    "plateEndings": [
+        {
+            "id": "1,2",
+            "name": "1,2",
+            "count": 342
+        },
+        {
+            "id": "3,4",
+            "name": "3,4",
+            "count": 314
+        },
+        {
+            "id": "5,6",
+            "name": "5,6",
+            "count": 360
+        },
+        {
+            "id": "7,8",
+            "name": "7,8",
+            "count": 347
+        },
+        {
+            "id": "9,0",
+            "name": "9,0",
+            "count": 392
+        }
+    ],
+    "bodyType": [
+        {
+            "id": "",
+            "name": "",
+            "count": 877
+        },
+        {
+            "id": "Hatch",
+            "name": "Hatch",
+            "count": 517
+        },
+        {
+            "id": "Sedan",
+            "name": "Sedan",
+            "count": 305
+        },
+        {
+            "id": "SUV",
+            "name": "SUV",
+            "count": 119
+        },
+        {
+            "id": "Furgão",
+            "name": "Furgão",
+            "count": 30
+        },
+        {
+            "id": "Minivan",
+            "name": "Minivan",
+            "count": 20
+        },
+        {
+            "id": "Picape",
+            "name": "Picape",
+            "count": 9
+        },
+        {
+            "id": "Caminhão leve",
+            "name": "Caminhão leve",
+            "count": 7
+        },
+        {
+            "id": "Esportivo",
+            "name": "Esportivo",
+            "count": 7
+        },
+        {
+            "id": "Cupê",
+            "name": "Cupê",
+            "count": 5
+        },
+        {
+            "id": "Van",
+            "name": "Van",
+            "count": 5
+        },
+        {
+            "id": "Monovolume",
+            "name": "Monovolume",
+            "count": 1
+        }
+    ],
+    "ratesMonth": null,
+    "ratesValue": null,
+    "certificate": [
+        {
+            "id": "yes",
+            "name": "yes",
+            "count": 1902
+        }
+    ],
+    "financing": [
+        {
+            "id": "no",
+            "name": "no",
+            "count": 1288
+        },
+        {
+            "id": "yes",
+            "name": "yes",
+            "count": 614
+        }
+    ]
+},
+  "items": [
+    { "id": 679312784, "city": "Campinas", "state": "SP", "year": "2018", "brand": "CHEVROLET", "model": "ONIX", "version": "1.4 MPFI EFFECT 8V FLEX 4P MANUAL", "price": 66900, "mileage": 74500, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKXVQ79B8P513XJX12QB6E.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 6326 }, "month24": { "months": 24, "value": 3537 }, "month36": { "months": 36, "value": 2624 }, "month48": { "months": 48, "value": 2181 }, "month60": { "months": 60, "value": 1924 } } },
+    { "id": 3216581099, "city": "Campinas", "state": "SP", "year": "2016/2017", "brand": "CHEVROLET", "model": "PRISMA", "version": "1.4 MPFI LT 8V FLEX 4P MANUAL", "price": 58900, "mileage": 143611, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT81GJVCMFAFTVFS9F7CN14.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5569 }, "month24": { "months": 24, "value": 3114 }, "month36": { "months": 36, "value": 2310 }, "month48": { "months": 48, "value": 1920 }, "month60": { "months": 60, "value": 1694 } } },
+    { "id": 3016233695, "city": "São José dos Campos", "state": "SP", "year": "2014/2015", "brand": "HYUNDAI", "model": "I30", "version": "1.8 MPI 16V GASOLINA SERIE LIMITADA 4P AUTOMATICO", "price": 72900, "mileage": 126251, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT5XRPK24C0EF9P4BXQMYQD.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6893 }, "month24": { "months": 24, "value": 3854 }, "month36": { "months": 36, "value": 2860 }, "month48": { "months": 48, "value": 2376 }, "month60": { "months": 60, "value": 2097 } } },
+    { "id": 2844788235, "city": "São José dos Campos", "state": "SP", "year": "2017/2017", "brand": "TOYOTA", "model": "PRIUS", "version": "1.8 16V HIBRIDO 4P AUTOMATICO", "price": 89900, "mileage": 109252, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM0PAZX03GF8GD02XJRRXW.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 8500 }, "month24": { "months": 24, "value": 4753 }, "month36": { "months": 36, "value": 3527 }, "month48": { "months": 48, "value": 2930 }, "month60": { "months": 60, "value": 2586 } } },
+    { "id": 2246421829, "city": "Campinas", "state": "SP", "year": "2019/2020", "brand": "VOLKSWAGEN", "model": "GOL", "version": "1.0 12V MPI TOTALFLEX 4P MANUAL", "price": 55900, "mileage": 61143, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT5YFDY2ET3MEWQVC3SR8GM.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5285 }, "month24": { "months": 24, "value": 2955 }, "month36": { "months": 36, "value": 2193 }, "month48": { "months": 48, "value": 1822 }, "month60": { "months": 60, "value": 1608 } } },
+    { "id": 3116760339, "city": "São José dos Campos", "state": "SP", "year": "2018/2019", "brand": "FORD", "model": "ECOSPORT", "version": "1.5 TIVCT FLEX SE MANUAL", "price": 74900, "mileage": 86050, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT80PWA5GC9D7THWCSFAWC3.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 7082 }, "month24": { "months": 24, "value": 3960 }, "month36": { "months": 36, "value": 2938 }, "month48": { "months": 48, "value": 2441 }, "month60": { "months": 60, "value": 2154 } } },
+    { "id": 2359504281, "city": "São José dos Campos", "state": "SP", "year": "2021/2022", "brand": "MERCEDES-BENZ", "model": "C200", "version": "1.5 EQ BOOST HÍBRIDO AMG LINE 9G-TRONIC", "price": 339900, "mileage": 26, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM08RK51Z6PB1QSCJAYT93.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 32140 }, "month24": { "months": 24, "value": 17970 }, "month36": { "months": 36, "value": 13335 }, "month48": { "months": 48, "value": 11081 }, "month60": { "months": 60, "value": 9778 } } },
+    { "id": 3636940193, "city": "Campinas", "state": "SP", "year": "2018/2019", "brand": "CHEVROLET", "model": "ONIX", "version": "1.4 MPFI LT 8V FLEX 4P MANUAL", "price": 62900, "mileage": 39726, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTG4HQAN8G22TREK9S3FHN4.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5947 }, "month24": { "months": 24, "value": 3325 }, "month36": { "months": 36, "value": 2467 }, "month48": { "months": 48, "value": 2050 }, "month60": { "months": 60, "value": 1809 } } },
+    { "id": 462427897, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "FIAT", "model": "PULSE", "version": "1.0 TURBO 200 FLEX AUDACE CVT", "price": 99900, "mileage": 37767, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT5XZ4GKSRMA4T0EJCY5X0G.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 9446 }, "month24": { "months": 24, "value": 5281 }, "month36": { "months": 36, "value": 3919 }, "month48": { "months": 48, "value": 3256 }, "month60": { "months": 60, "value": 2873 } } },
+    { "id": 1139885274, "city": "Campinas", "state": "SP", "year": "2018", "brand": "CHEVROLET", "model": "S10", "version": "2.5 LTZ 4X2 CD 16V FLEX 4P AUTOMATICO", "price": 159900, "mileage": 47844, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJJT6DV74Y66AAEQGW7XV0Y.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 15120 }, "month24": { "months": 24, "value": 8454 }, "month36": { "months": 36, "value": 6273 }, "month48": { "months": 48, "value": 5213 }, "month60": { "months": 60, "value": 4599 } } },
+    { "id": 1251689107, "city": "São José dos Campos", "state": "SP", "year": "2022/2023", "brand": "TOYOTA", "model": "COROLLA", "version": "2.0 VVT-IE FLEX XEI DIRECT SHIFT", "price": 137900, "mileage": 48610, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKYTAXN6QNV675MEZH8MPJ.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 13039 }, "month24": { "months": 24, "value": 7290 }, "month36": { "months": 36, "value": 5410 }, "month48": { "months": 48, "value": 4495 }, "month60": { "months": 60, "value": 3967 } } },
+    { "id": 2127459379, "city": "São José dos Campos", "state": "SP", "year": "2016/2017", "brand": "RENAULT", "model": "DUSTER", "version": "1.6 DYNAMIQUE 4X2 16V FLEX 4P MANUAL", "price": 65900, "mileage": 142970, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM1HDJ1BHPM3HYZ94KRCYE.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6231 }, "month24": { "months": 24, "value": 3484 }, "month36": { "months": 36, "value": 2585 }, "month48": { "months": 48, "value": 2148 }, "month60": { "months": 60, "value": 1895 } } },
+    { "id": 3222260505, "city": "São José dos Campos", "state": "SP", "year": "2019/2020", "brand": "JEEP", "model": "RENEGADE", "version": "1.8 16V FLEX LONGITUDE 4P AUTOMÁTICO", "price": 89900, "mileage": 80972, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJJK5608SHEC0G6B2CBQCD2.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 8500 }, "month24": { "months": 24, "value": 4753 }, "month36": { "months": 36, "value": 3527 }, "month48": { "months": 48, "value": 2930 }, "month60": { "months": 60, "value": 2586 } } },
+    { "id": 3826850669, "city": "Campinas", "state": "SP", "year": "2013/2013", "brand": "FIAT", "model": "LINEA", "version": "1.8 ESSENCE 16V FLEX 4P MANUAL", "price": 36900, "mileage": 124656, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT2SXCJCAHHBNHTPH8P1HK4.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 3489 }, "month24": { "months": 24, "value": 1950 }, "month36": { "months": 36, "value": 1447 }, "month48": { "months": 48, "value": 1203 }, "month60": { "months": 60, "value": 1061 } } },
+    { "id": 2569655835, "city": "Sumaré", "state": "SP", "year": "2021/2022", "brand": "FIAT", "model": "STRADA", "version": "1.4 FIRE FLEX ENDURANCE CS MANUAL", "price": 84900, "mileage": 54691, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBG4X2NS2V2ZCWBTMEZ67JBH.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 8028 }, "month24": { "months": 24, "value": 4488 }, "month36": { "months": 36, "value": 3330 }, "month48": { "months": 48, "value": 2767 }, "month60": { "months": 60, "value": 2442 } } },
+    { "id": 393161577, "city": "São José dos Campos", "state": "SP", "year": "2014/2015", "brand": "VOLKSWAGEN", "model": "FOX", "version": "1.0 MI TRENDLINE 8V FLEX 4P MANUAL", "price": 46900, "mileage": 93, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKZYP1ZQ7WD1EYSZH94G0C.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 4434 }, "month24": { "months": 24, "value": 2479 }, "month36": { "months": 36, "value": 1840 }, "month48": { "months": 48, "value": 1529 }, "month60": { "months": 60, "value": 1349 } } },
+    { "id": 1284125642, "city": "São José dos Campos", "state": "SP", "year": "2021/2021", "brand": "VOLKSWAGEN", "model": "NIVUS", "version": "Launching Ed. 1.0 200 TSI Flex Aut.", "price": 119900, "mileage": 30, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTFNWNTCJ9MRG232W1PN3X6.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 11337 }, "month24": { "months": 24, "value": 6339 }, "month36": { "months": 36, "value": 4704 }, "month48": { "months": 48, "value": 3908 }, "month60": { "months": 60, "value": 3449 } } },
+    { "id": 2005890003, "city": "São José dos Campos", "state": "SP", "year": "2020/2021", "brand": "VOLKSWAGEN", "model": "T-CROSS", "version": "1.4 250 TSI TOTAL FLEX HIGHLINE AUTOMÁTICO", "price": 121900, "mileage": 40959, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKXMJZ54W27HTCBYZKD13D.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 11526 }, "month24": { "months": 24, "value": 6444 }, "month36": { "months": 36, "value": 4782 }, "month48": { "months": 48, "value": 3974 }, "month60": { "months": 60, "value": 3506 } } },
+    { "id": 3391933111, "city": "Paulínia", "state": "SP", "year": "2014/2015", "brand": "RENAULT", "model": "LOGAN", "version": "1.6 EXPRESSION 8V FLEX 4P MANUAL", "price": 39900, "mileage": 123553, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBEN5FNHAR11C0DB8D35GDTJ.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 3772 }, "month24": { "months": 24, "value": 2109 }, "month36": { "months": 36, "value": 1565 }, "month48": { "months": 48, "value": 1300 }, "month60": { "months": 60, "value": 1147 } } },
+    { "id": 3531337990, "city": "Sumaré", "state": "SP", "year": "2012/2013", "brand": "KIA", "model": "SPORTAGE", "version": "2.0 LX 4X2 16V FLEX 4P AUTOMATICO", "price": 69900, "mileage": 99826, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBEPHZCV4VJTSNHX2K7D3328.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6609 }, "month24": { "months": 24, "value": 3695 }, "month36": { "months": 36, "value": 2742 }, "month48": { "months": 48, "value": 2278 }, "month60": { "months": 60, "value": 2010 } } },
+    { "id": 1193053755, "city": "Santo André", "state": "SP", "year": "2022/2022", "brand": "CHERY", "model": "TIGGO 5x", "version": "1.5 VVT TURBO IFLEX TXS DCT", "price": 114790, "mileage": 26743, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT5TYXTFZ5GNYTM8KW8M72E.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 10854 }, "month24": { "months": 24, "value": 6069 }, "month36": { "months": 36, "value": 4503 }, "month48": { "months": 48, "value": 3742 }, "month60": { "months": 60, "value": 3302 } } },
+    { "id": 3072348351, "city": "São Paulo", "state": "SP", "year": "2019/2020", "brand": "MITSUBISHI", "model": "ECLIPSE CROSS", "version": "1.5 MIVEC TURBO GASOLINA HPE CVT", "price": 123900, "mileage": 71760, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT087HZM8EXHVJHW5014RBW.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 11715 }, "month24": { "months": 24, "value": 6550 }, "month36": { "months": 36, "value": 4860 }, "month48": { "months": 48, "value": 4039 }, "month60": { "months": 60, "value": 3564 } } },
+    { "id": 1015837964, "city": "Campinas", "state": "SP", "year": "2009/2009", "brand": "HONDA", "model": "FIT", "version": "1.4 LX 16V FLEX 4P MANUAL", "price": 37990, "mileage": 150000, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM0FGDWB22HMSFW91CEVMH.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 3592 }, "month24": { "months": 24, "value": 2008 }, "month36": { "months": 36, "value": 1490 }, "month48": { "months": 48, "value": 1238 }, "month60": { "months": 60, "value": 1092 } } },
+    { "id": 2146035353, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "FIAT", "model": "PULSE", "version": "1.0 TURBO 200 FLEX AUDACE CVT", "price": 104900, "mileage": 8, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTHA2F0DNHFRKFTWZZN9JHF.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 9919 }, "month24": { "months": 24, "value": 5546 }, "month36": { "months": 36, "value": 4115 }, "month48": { "months": 48, "value": 3419 }, "month60": { "months": 60, "value": 3017 } } },
+    { "id": 2994342707, "city": "Campinas", "state": "SP", "year": "2019/2019", "brand": "CHEVROLET", "model": "PRISMA", "version": "1.4 MPFI LT 8V FLEX 4P AUTOMATICO", "price": 69900, "mileage": 54080, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBCD7VB75Z8N6569MGMAJZN4.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 6609 }, "month24": { "months": 24, "value": 3695 }, "month36": { "months": 36, "value": 2742 }, "month48": { "months": 48, "value": 2278 }, "month60": { "months": 60, "value": 2010 } } },
+    { "id": 3480469397, "city": "São José dos Campos", "state": "SP", "year": "2021/2021", "brand": "FIAT", "model": "ARGO", "version": "1.0 FIREFLY FLEX DRIVE MANUAL", "price": 61900, "mileage": 53686, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBGYJPRXYPAAFN4EX7M541XQ.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5853 }, "month24": { "months": 24, "value": 3272 }, "month36": { "months": 36, "value": 2428 }, "month48": { "months": 48, "value": 2018 }, "month60": { "months": 60, "value": 1780 } } },
+    { "id": 6768044, "city": "Paulínia", "state": "SP", "year": "2021/2021", "brand": "FIAT", "model": "ARGO", "version": "1.0 FIREFLY FLEX DRIVE MANUAL", "price": 54900, "mileage": 78473, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBF10G1JBD5DGFHTSZ6Y1RT6.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5191 }, "month24": { "months": 24, "value": 2902 }, "month36": { "months": 36, "value": 2153 }, "month48": { "months": 48, "value": 1789 }, "month60": { "months": 60, "value": 1579 } } },
+    { "id": 3544346360, "city": "Paulínia", "state": "SP", "year": "2020/2021", "brand": "CHEVROLET", "model": "ONIX", "version": "1.0 JOY BLACK EDITION 8V FLEX MEC", "price": 54900, "mileage": 72598, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBAWNRGBWYYCDZ1JPQ972G4G.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5191 }, "month24": { "months": 24, "value": 2902 }, "month36": { "months": 36, "value": 2153 }, "month48": { "months": 48, "value": 1789 }, "month60": { "months": 60, "value": 1579 } } },
+    { "id": 827271876, "city": "Campinas", "state": "SP", "year": "2015/2016", "brand": "MITSUBISHI", "model": "ASX", "version": "2.0 4X4 AWD 16V GASOLINA 4P AUTOMATICO", "price": 78900, "mileage": 113011, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKYBWRMPF429Y0C050021E.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 7460 }, "month24": { "months": 24, "value": 4171 }, "month36": { "months": 36, "value": 3095 }, "month48": { "months": 48, "value": 2572 }, "month60": { "months": 60, "value": 2269 } } },
+    { "id": 1580457973, "city": "São José dos Campos", "state": "SP", "year": "2021/2021", "brand": "FIAT", "model": "UNO", "version": "1.0 FIRE FLEX ATTRACTIVE MANUAL", "price": 54900, "mileage": 43125, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJD92NRXERWWBC050WAY3DA.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5191 }, "month24": { "months": 24, "value": 2902 }, "month36": { "months": 36, "value": 2153 }, "month48": { "months": 48, "value": 1789 }, "month60": { "months": 60, "value": 1579 } } },
+    { "id": 2849972807, "city": "São José dos Campos", "state": "SP", "year": "2022/2023", "brand": "CHERY", "model": "TIGGO 7 PRO", "version": "1.6 TGDI GASOLINA DCT", "price": 172900, "mileage": 25, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTHB0KEHVRHGAFYVQ7K71DR.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 16349 }, "month24": { "months": 24, "value": 9141 }, "month36": { "months": 36, "value": 6783 }, "month48": { "months": 48, "value": 5636 }, "month60": { "months": 60, "value": 4973 } } },
+    { "id": 3027459326, "city": "Campinas", "state": "SP", "year": "2021/2021", "brand": "CHEVROLET", "model": "TRACKER", "version": "1.0 TURBO FLEX LT AUTOMÁTICO", "price": 109900, "mileage": 39710, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTHAAAJTQWMG6E4815552D0.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 10392 }, "month24": { "months": 24, "value": 5810 }, "month36": { "months": 36, "value": 4311 }, "month48": { "months": 48, "value": 3582 }, "month60": { "months": 60, "value": 3161 } } },
+    { "id": 2716524043, "city": "São José dos Campos", "state": "SP", "year": "2019/2020", "brand": "FORD", "model": "KA", "version": "1.0 TI-VCT FLEX SE MANUAL", "price": 53900, "mileage": 40, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTFJAVCEC57AHZNDYPFVHMY.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5096 }, "month24": { "months": 24, "value": 2849 }, "month36": { "months": 36, "value": 2114 }, "month48": { "months": 48, "value": 1757 }, "month60": { "months": 60, "value": 1550 } } },
+    { "id": 693440792, "city": "Campinas", "state": "SP", "year": "2019/2019", "brand": "HONDA", "model": "CITY", "version": "1.5 LX 16V FLEX 4P AUTOMATICO", "price": 85900, "mileage": 46156, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB729N71S0NQE6071JRJBS8F.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 8122 }, "month24": { "months": 24, "value": 4541 }, "month36": { "months": 36, "value": 3370 }, "month48": { "months": 48, "value": 2800 }, "month60": { "months": 60, "value": 2471 } } },
+    { "id": 3971449016, "city": "Campinas", "state": "SP", "year": "2016/2017", "brand": "RENAULT", "model": "DUSTER OROCH", "version": "1.6 16V FLEX EXPRESSION 4P MANUAL", "price": 70890, "mileage": 1000, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJD8W6JHVB25VKHDDREZ5HB.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6703 }, "month24": { "months": 24, "value": 3748 }, "month36": { "months": 36, "value": 2781 }, "month48": { "months": 48, "value": 2311 }, "month60": { "months": 60, "value": 2039 } } },
+    { "id": 4047443914, "city": "Campinas", "state": "SP", "year": "2018/2018", "brand": "HYUNDAI", "model": "HB20S", "version": "1.0 COMFORT PLUS 12V FLEX 4P MANUAL", "price": 57900, "mileage": 87829, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT82JFPTSN9WBNCDW6XV1Y2.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5475 }, "month24": { "months": 24, "value": 3061 }, "month36": { "months": 36, "value": 2271 }, "month48": { "months": 48, "value": 1887 }, "month60": { "months": 60, "value": 1665 } } },
+    { "id": 845159285, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "HYUNDAI", "model": "HB20S", "version": "1.0 TGDI FLEX PLATINUM AUTOMÁTICO", "price": 91900, "mileage": 44242, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJCXDCSDW91YAB9D42EGZNH.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 8690 }, "month24": { "months": 24, "value": 4858 }, "month36": { "months": 36, "value": 3605 }, "month48": { "months": 48, "value": 2996 }, "month60": { "months": 60, "value": 2643 } } },
+    { "id": 614105253, "city": "Paulínia", "state": "SP", "year": "2018/2019", "brand": "RENAULT", "model": "DUSTER", "version": "1.6 16V SCE FLEX AUTHENTIQUE X-TRONIC", "price": 72900, "mileage": 86990, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB9MEK1CXPHJT9962Q727SZ3.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6893 }, "month24": { "months": 24, "value": 3854 }, "month36": { "months": 36, "value": 2860 }, "month48": { "months": 48, "value": 2376 }, "month60": { "months": 60, "value": 2097 } } },
+    { "id": 2983384213, "city": "São José dos Campos", "state": "SP", "year": "2020/2020", "brand": "FORD", "model": "RANGER", "version": "2.2 XLS 4X4 CD 16V DIESEL 4P AUTOMÁTICO", "price": 155900, "mileage": 51375, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJCXSWCE24SMKWGW0BSS13B.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 14741 }, "month24": { "months": 24, "value": 8242 }, "month36": { "months": 36, "value": 6116 }, "month48": { "months": 48, "value": 5082 }, "month60": { "months": 60, "value": 4484 } } },
+    { "id": 3769201847, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "NISSAN", "model": "KICKS", "version": "1.6 16V FLEXSTART SENSE XTRONIC", "price": 99900, "mileage": 39905, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM01RVNY8NQ99YG48BQT7S.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 9446 }, "month24": { "months": 24, "value": 5281 }, "month36": { "months": 36, "value": 3919 }, "month48": { "months": 48, "value": 3256 }, "month60": { "months": 60, "value": 2873 } } },
+    { "id": 985866286, "city": "São José dos Campos", "state": "SP", "year": "2016/2017", "brand": "FIAT", "model": "TORO", "version": "1.8 16V EVO FLEX FREEDOM OPEN EDITION AUTOMATICO", "price": 87900, "mileage": 129454, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJZXZ0WCWWKQ2NG4EMWBKQB.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 8311 }, "month24": { "months": 24, "value": 4647 }, "month36": { "months": 36, "value": 3448 }, "month48": { "months": 48, "value": 2865 }, "month60": { "months": 60, "value": 2528 } } },
+    { "id": 4278783630, "city": "Paulínia", "state": "SP", "year": "2021/2022", "brand": "RENAULT", "model": "CAPTUR", "version": "1.3 TCE FLEX INTENSE X-TRONIC", "price": 108900, "mileage": 24664, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBCDH061833GFN43K8BAZDH4.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 10297 }, "month24": { "months": 24, "value": 5757 }, "month36": { "months": 36, "value": 4272 }, "month48": { "months": 48, "value": 3550 }, "month60": { "months": 60, "value": 3132 } } },
+    { "id": 3718897378, "city": "Santo André", "state": "SP", "year": "2013/2013", "brand": "CHEVROLET", "model": "SPIN", "version": "1.8 LTZ 8V FLEX 4P MANUAL", "price": 55790, "mileage": 95533, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT4AJF974KTG2060TVWFNZ6.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5275 }, "month24": { "months": 24, "value": 2949 }, "month36": { "months": 36, "value": 2188 }, "month48": { "months": 48, "value": 1818 }, "month60": { "months": 60, "value": 1604 } } },
+    { "id": 1027031000, "city": "São Paulo", "state": "SP", "year": "2015/2016", "brand": "LAND ROVER", "model": "RANGE ROVER EVOQUE", "version": "2.0 HSE DYNAMIC 4WD 16V GASOLINA 4P AUTOMATICO", "price": 164900, "mileage": 55779, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT07GR0WXYZFHWQW7VZDFG6.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 15592 }, "month24": { "months": 24, "value": 8718 }, "month36": { "months": 36, "value": 6469 }, "month48": { "months": 48, "value": 5376 }, "month60": { "months": 60, "value": 4743 } } },
+    { "id": 2708605367, "city": "Campinas", "state": "SP", "year": "2015/2016", "brand": "FIAT", "model": "PUNTO", "version": "1.4 ATTRACTIVE 8V FLEX 4P MANUAL", "price": 48900, "mileage": 100, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBFSW7FPPNR575FK40FJ3YA5.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 4623 }, "month24": { "months": 24, "value": 2585 }, "month36": { "months": 36, "value": 1918 }, "month48": { "months": 48, "value": 1594 }, "month60": { "months": 60, "value": 1406 } } },
+    { "id": 2600078389, "city": "São José dos Campos", "state": "SP", "year": "2022/2023", "brand": "VOLKSWAGEN", "model": "GOL", "version": "1.0 12V MPI TOTALFLEX 4P MANUAL", "price": 67900, "mileage": 43620, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBC8FWG7DVX3G4JP99PG61R3.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6420 }, "month24": { "months": 24, "value": 3589 }, "month36": { "months": 36, "value": 2663 }, "month48": { "months": 48, "value": 2213 }, "month60": { "months": 60, "value": 1953 } } },
+    { "id": 3240764335, "city": "Campinas", "state": "SP", "year": "2008/2009", "brand": "TOYOTA", "model": "COROLLA", "version": "1.8 SE-G 16V FLEX 4P AUTOMATICO", "price": 58900, "mileage": 169040, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBCA3J4HXA12VNGTK823C0CR.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5569 }, "month24": { "months": 24, "value": 3114 }, "month36": { "months": 36, "value": 2310 }, "month48": { "months": 48, "value": 1920 }, "month60": { "months": 60, "value": 1694 } } },
+    { "id": 1635194004, "city": "São Paulo", "state": "SP", "year": "2021/2021", "brand": "HONDA", "model": "HR-V", "version": "1.8 16V FLEX EX 4P AUTOMÁTICO", "price": 124900, "mileage": 30662, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT07WG8ZN7Y7J4BDPYYN9E2.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 11810 }, "month24": { "months": 24, "value": 6603 }, "month36": { "months": 36, "value": 4900 }, "month48": { "months": 48, "value": 4071 }, "month60": { "months": 60, "value": 3593 } } },
+    { "id": 410292058, "city": "São José dos Campos", "state": "SP", "year": "2011/2011", "brand": "FORD", "model": "FIESTA", "version": "1.6 MPI SEDAN 8V FLEX 4P MANUAL", "price": 30900, "mileage": 155667, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJJHAEVXQ4DZTX184T96MXE.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 2921 }, "month24": { "months": 24, "value": 1633 }, "month36": { "months": 36, "value": 1212 }, "month48": { "months": 48, "value": 1007 }, "month60": { "months": 60, "value": 888 } } },
+    { "id": 515038787, "city": "São José dos Campos", "state": "SP", "year": "2022/2023", "brand": "VOLKSWAGEN", "model": "VOYAGE", "version": "1.0 Flex 12V 4p", "price": 75900, "mileage": 43173, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKY4JZPZA97CZS9JVBCQFR.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 7177 }, "month24": { "months": 24, "value": 4012 }, "month36": { "months": 36, "value": 2977 }, "month48": { "months": 48, "value": 2474 }, "month60": { "months": 60, "value": 2183 } } },
+    { "id": 1433305268, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "HYUNDAI", "model": "CRETA", "version": "1.6 16V FLEX ACTION AUTOMÁTICO", "price": 103900, "mileage": 16, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM13VC7A7X2HVNHCH5Q55H.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 9824 }, "month24": { "months": 24, "value": 5493 }, "month36": { "months": 36, "value": 4076 }, "month48": { "months": 48, "value": 3387 }, "month60": { "months": 60, "value": 2988 } } },
+    { "id": 3597932180, "city": "São Paulo", "state": "SP", "year": "2015/2015", "brand": "KIA", "model": "SPORTAGE", "version": "2.0 LX 4X2 16V FLEX 4P AUTOMATICO", "price": 79900, "mileage": 119909, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT05PS5PNX79AYSWWX8F4GP.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 7555 }, "month24": { "months": 24, "value": 4224 }, "month36": { "months": 36, "value": 3134 }, "month48": { "months": 48, "value": 2604 }, "month60": { "months": 60, "value": 2298 } } },
+    { "id": 3116204099, "city": "São José dos Campos", "state": "SP", "year": "2019/2019", "brand": "TOYOTA", "model": "COROLLA", "version": "1.8 GLI UPPER 16V FLEX 4P AUTOMATICO", "price": 89000, "mileage": 133739, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBBYHHQQ94W0532137SVSZH1.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 8415 }, "month24": { "months": 24, "value": 4705 }, "month36": { "months": 36, "value": 3491 }, "month48": { "months": 48, "value": 2901 }, "month60": { "months": 60, "value": 2560 } } },
+    { "id": 2688717608, "city": "São José dos Campos", "state": "SP", "year": "2014/2015", "brand": "FIAT", "model": "UNO", "version": "1.0 EVO ATTRACTIVE 8V FLEX 4P MANUAL", "price": 39900, "mileage": 142782, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM1BT79HR63SWNQCWSPSAC.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 3772 }, "month24": { "months": 24, "value": 2109 }, "month36": { "months": 36, "value": 1565 }, "month48": { "months": 48, "value": 1300 }, "month60": { "months": 60, "value": 1147 } } },
+    { "id": 757191264, "city": "Campinas", "state": "SP", "year": "2012/2012", "brand": "FIAT", "model": "PALIO", "version": "1.0 MPI ATTRACTIVE 8V FLEX 4P MANUAL", "price": 32990, "mileage": 130000, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB6QQQHK4JJZ5SH9BE0HSD4B.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 3119 }, "month24": { "months": 24, "value": 1744 }, "month36": { "months": 36, "value": 1294 }, "month48": { "months": 48, "value": 1075 }, "month60": { "months": 60, "value": 949 } } },
+    { "id": 790283590, "city": "São José dos Campos", "state": "SP", "year": "2018/2019", "brand": "JAGUAR", "model": "E-PACE", "version": "2.0 16V P250 FLEX S AWD AUTOMATICO", "price": 224900, "mileage": 53, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKZGCQEV3GX6V7SVK6D6XT.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 21266 }, "month24": { "months": 24, "value": 11890 }, "month36": { "months": 36, "value": 8823 }, "month48": { "months": 48, "value": 7332 }, "month60": { "months": 60, "value": 6469 } } },
+    { "id": 296304316, "city": "Sumaré", "state": "SP", "year": "2013/2013", "brand": "VOLKSWAGEN", "model": "SAVEIRO", "version": "1.6 MI CS 8V FLEX 2P MANUAL G.V", "price": 42900, "mileage": 158434, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBAWNJKVPR5ZN0J6PEM18W2C.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 4056 }, "month24": { "months": 24, "value": 2268 }, "month36": { "months": 36, "value": 1683 }, "month48": { "months": 48, "value": 1398 }, "month60": { "months": 60, "value": 1234 } } },
+    { "id": 1663675501, "city": "São José dos Campos", "state": "SP", "year": "2018", "brand": "FIAT", "model": "ARGO", "version": "1.3 FIREFLY FLEX DRIVE GSR", "price": 59900, "mileage": 76, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTHAHFREV7MP5NMEQBPDCAD.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5664 }, "month24": { "months": 24, "value": 3166 }, "month36": { "months": 36, "value": 2350 }, "month48": { "months": 48, "value": 1952 }, "month60": { "months": 60, "value": 1723 } } },
+    { "id": 1011702426, "city": "São José dos Campos", "state": "SP", "year": "2021/2021", "brand": "FIAT", "model": "FIORINO", "version": "ENDURANCE EVO 1.4 FLEX 8V 2P", "price": 81900, "mileage": 53, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTM0WMXQSYMS4CKSFVQK53W.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 7744 }, "month24": { "months": 24, "value": 4330 }, "month36": { "months": 36, "value": 3213 }, "month48": { "months": 48, "value": 2670 }, "month60": { "months": 60, "value": 2356 } } },
+    { "id": 3709924551, "city": "Paulínia", "state": "SP", "year": "2023/2023", "brand": "FIAT", "model": "FASTBACK", "version": "1.0 TURBO 200 FLEX IMPETUS CVT", "price": 136900, "mileage": 20250, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT2ZDKKW7AK8RCZVFNRB60V.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 12945 }, "month24": { "months": 24, "value": 7238 }, "month36": { "months": 36, "value": 5370 }, "month48": { "months": 48, "value": 4463 }, "month60": { "months": 60, "value": 3938 } } },
+    { "id": 1856479838, "city": "Campinas", "state": "SP", "year": "2018", "brand": "NISSAN", "model": "KICKS", "version": "1.6 16V FLEX SL 4P XTRONIC", "price": 82900, "mileage": 84443, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBCD60BFF3WY7SFACT5QGCRW.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 7838 }, "month24": { "months": 24, "value": 4383 }, "month36": { "months": 36, "value": 3252 }, "month48": { "months": 48, "value": 2702 }, "month60": { "months": 60, "value": 2384 } } },
+    { "id": 925785679, "city": "Campinas", "state": "SP", "year": "2013/2013", "brand": "DODGE", "model": "JOURNEY", "version": "3.6 RT V6 GASOLINA 4P AUTOMATICO", "price": 63900, "mileage": 128336, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBCA3RAGDJGZE7197XDT8J26.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 6042 }, "month24": { "months": 24, "value": 3378 }, "month36": { "months": 36, "value": 2506 }, "month48": { "months": 48, "value": 2083 }, "month60": { "months": 60, "value": 1838 } } },
+    { "id": 3687427629, "city": "São José dos Campos", "state": "SP", "year": "2019/2020", "brand": "RENAULT", "model": "DUSTER OROCH", "version": "1.6 16V SCE FLEX EXPRESS MANUAL", "price": 77900, "mileage": 107000, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBC8HP9FVMJSKDQ6N6XC54VT.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 7366 }, "month24": { "months": 24, "value": 4118 }, "month36": { "months": 36, "value": 3056 }, "month48": { "months": 48, "value": 2539 }, "month60": { "months": 60, "value": 2241 } } },
+    { "id": 3564326819, "city": "Sumaré", "state": "SP", "year": "2013/2014", "brand": "CITROEN", "model": "C3", "version": "1.6 PICASSO GLX 16V FLEX 4P AUTOMATICO", "price": 42900, "mileage": 86030, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB9MCZFNQT6HKVX0403Q3FSV.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 4056 }, "month24": { "months": 24, "value": 2268 }, "month36": { "months": 36, "value": 1683 }, "month48": { "months": 48, "value": 1398 }, "month60": { "months": 60, "value": 1234 } } },
+    { "id": 2176215914, "city": "Paulínia", "state": "SP", "year": "2016/2016", "brand": "PEUGEOT", "model": "2008", "version": "1.6 16V FLEX GRIFFE 4P AUTOMATICO", "price": 59900, "mileage": 98300, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT82C0T154H4KMCEF55AFBQ.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5664 }, "month24": { "months": 24, "value": 3166 }, "month36": { "months": 36, "value": 2350 }, "month48": { "months": 48, "value": 1952 }, "month60": { "months": 60, "value": 1723 } } },
+    { "id": 2881855853, "city": "Campinas", "state": "SP", "year": "2015/2015", "brand": "HYUNDAI", "model": "HB20", "version": "1.6 PREMIUM 16V FLEX 4P AUTOMATICO", "price": 54900, "mileage": 142310, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB0CHN817ZW1TMQ4QEGY03WR.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5191 }, "month24": { "months": 24, "value": 2902 }, "month36": { "months": 36, "value": 2153 }, "month48": { "months": 48, "value": 1789 }, "month60": { "months": 60, "value": 1579 } } },
+    { "id": 4149620467, "city": "Paulínia", "state": "SP", "year": "2018/2019", "brand": "CHEVROLET", "model": "ONIX", "version": "1.4 MPFI LT 8V FLEX 4P MANUAL", "price": 61900, "mileage": 33300, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB6GN4A9PX436C6RKJ1SWRMA.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5853 }, "month24": { "months": 24, "value": 3272 }, "month36": { "months": 36, "value": 2428 }, "month48": { "months": 48, "value": 2018 }, "month60": { "months": 60, "value": 1780 } } },
+    { "id": 758329361, "city": "Sumaré", "state": "SP", "year": "2019/2019", "brand": "TOYOTA", "model": "HILUX", "version": "2.8  TURBO DIESEL CD SRV 4X4 AUTOMÁTICO", "price": 189900, "mileage": 140971, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJJTCFGGGM2BC5P7JTTQMPE.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 17956 }, "month24": { "months": 24, "value": 10040 }, "month36": { "months": 36, "value": 7450 }, "month48": { "months": 48, "value": 6191 }, "month60": { "months": 60, "value": 5463 } } },
+    { "id": 4203312801, "city": "São Paulo", "state": "SP", "year": "2018", "brand": "MITSUBISHI", "model": "OUTLANDER", "version": "2.0 COMFORT 16V GASOLINA 4P AUTOMATICO", "price": 124900, "mileage": 43041, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB0F9HNCCKAR7YEZZVP6FJE5.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 11810 }, "month24": { "months": 24, "value": 6603 }, "month36": { "months": 36, "value": 4900 }, "month48": { "months": 48, "value": 4071 }, "month60": { "months": 60, "value": 3593 } } },
+    { "id": 164199371, "city": "Campinas", "state": "SP", "year": "2014/2015", "brand": "FIAT", "model": "UNO", "version": "1.0 EVO ATTRACTIVE 8V FLEX 4P MANUAL", "price": 42900, "mileage": 122659, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT81AGBY8TG9GCNQDGV5EDE.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 4056 }, "month24": { "months": 24, "value": 2268 }, "month36": { "months": 36, "value": 1683 }, "month48": { "months": 48, "value": 1398 }, "month60": { "months": 60, "value": 1234 } } },
+    { "id": 1341370959, "city": "São José dos Campos", "state": "SP", "year": "2021/2022", "brand": "RENAULT", "model": "CAPTUR", "version": "1.3 TCE FLEX INTENSE X-TRONIC", "price": 115900, "mileage": 10, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKZ81KW2STDSZYEMD7VPPC.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 10959 }, "month24": { "months": 24, "value": 6127 }, "month36": { "months": 36, "value": 4547 }, "month48": { "months": 48, "value": 3778 }, "month60": { "months": 60, "value": 3334 } } },
+    { "id": 2915155465, "city": "São José dos Campos", "state": "SP", "year": "2017/2017", "brand": "HONDA", "model": "CIVIC", "version": "1.5 16V TURBO GASOLINA TOURING 4P CVT", "price": 119900, "mileage": 113, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTFJ7NMQSM75B8XV87CJKSF.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 11337 }, "month24": { "months": 24, "value": 6339 }, "month36": { "months": 36, "value": 4704 }, "month48": { "months": 48, "value": 3908 }, "month60": { "months": 60, "value": 3449 } } },
+    { "id": 2768614125, "city": "Campinas", "state": "SP", "year": "2018/2019", "brand": "FIAT", "model": "MOBI", "version": "1.0 8V EVO FLEX EASY MANUAL", "price": 42900, "mileage": 35651, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAXCZ5CEGD6MYSH5FZQ1QVGM.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 4056 }, "month24": { "months": 24, "value": 2268 }, "month36": { "months": 36, "value": 1683 }, "month48": { "months": 48, "value": 1398 }, "month60": { "months": 60, "value": 1234 } } },
+    { "id": 3676091083, "city": "São José dos Campos", "state": "SP", "year": "2021/2021", "brand": "FIAT", "model": "MOBI", "version": "MOBI LIKE 1.0 8V FLEX 4P", "price": 53900, "mileage": 42684, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBEC7TRQKDNZ42X8AR1DHF6W.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5096 }, "month24": { "months": 24, "value": 2849 }, "month36": { "months": 36, "value": 2114 }, "month48": { "months": 48, "value": 1757 }, "month60": { "months": 60, "value": 1550 } } },
+    { "id": 2814177882, "city": "Campinas", "state": "SP", "year": "2016/2017", "brand": "VOLKSWAGEN", "model": "UP", "version": "1.0 MPI TAKE UP 12V FLEX 2P MANUAL", "price": 45900, "mileage": 108571, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAXCZ0EE9FRH1R0F4CB5M4GN.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 4340 }, "month24": { "months": 24, "value": 2426 }, "month36": { "months": 36, "value": 1800 }, "month48": { "months": 48, "value": 1496 }, "month60": { "months": 60, "value": 1320 } } },
+    { "id": 661246128, "city": "Campinas", "state": "SP", "year": "2022/2023", "brand": "CHEVROLET", "model": "ONIX", "version": "1.0 TURBO FLEX LTZ AUTOMÁTICO", "price": 99800, "mileage": 15622, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAXCZBJCA0KJ5YXBG8TKJN4J.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 9437 }, "month24": { "months": 24, "value": 5276 }, "month36": { "months": 36, "value": 3915 }, "month48": { "months": 48, "value": 3253 }, "month60": { "months": 60, "value": 2871 } } },
+    { "id": 1565851957, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "HYUNDAI", "model": "HB20", "version": "1.0 12V FLEX SENSE MANUAL", "price": 63900, "mileage": 41606, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJZXS4VZFGYZA455SSEBXEK.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6042 }, "month24": { "months": 24, "value": 3378 }, "month36": { "months": 36, "value": 2506 }, "month48": { "months": 48, "value": 2083 }, "month60": { "months": 60, "value": 1838 } } },
+    { "id": 695510921, "city": "São Paulo", "state": "SP", "year": "2021/2022", "brand": "MITSUBISHI", "model": "ECLIPSE CROSS", "version": "1.5 MIVEC TURBO GASOLINA HPE-S SPORT CVT", "price": 174900, "mileage": 10054, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAWM9BH3S6AZC38DHYC06Q85.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 16538 }, "month24": { "months": 24, "value": 9247 }, "month36": { "months": 36, "value": 6861 }, "month48": { "months": 48, "value": 5702 }, "month60": { "months": 60, "value": 5031 } } },
+    { "id": 3143956485, "city": "Sumaré", "state": "SP", "year": "2019/2020", "brand": "VOLKSWAGEN", "model": "GOL", "version": "1.0 12V MPI TOTALFLEX 4P MANUAL", "price": 52900, "mileage": 58110, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAWMD5N04DCJAZVASJDDR29F.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5002 }, "month24": { "months": 24, "value": 2796 }, "month36": { "months": 36, "value": 2075 }, "month48": { "months": 48, "value": 1724 }, "month60": { "months": 60, "value": 1521 } } },
+    { "id": 868252209, "city": "Campinas", "state": "SP", "year": "2012/2013", "brand": "TOYOTA", "model": "COROLLA", "version": "1.8 GLI 16V FLEX 4P AUTOMATICO", "price": 57900, "mileage": 143442, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBEMY5B4Y5FCJTWJMNZGEGHV.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5475 }, "month24": { "months": 24, "value": 3061 }, "month36": { "months": 36, "value": 2271 }, "month48": { "months": 48, "value": 1887 }, "month60": { "months": 60, "value": 1665 } } },
+    { "id": 513924582, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "JEEP", "model": "RENEGADE", "version": "1.3 T270 Turbo Flex Longitude At6", "price": 128900, "mileage": 36995, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJJFGN579H009WC4R22D7CC.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 12188 }, "month24": { "months": 24, "value": 6815 }, "month36": { "months": 36, "value": 5057 }, "month48": { "months": 48, "value": 4202 }, "month60": { "months": 60, "value": 3708 } } },
+    { "id": 707717840, "city": "Paulínia", "state": "SP", "year": "2022/2022", "brand": "NISSAN", "model": "KICKS", "version": "1.6 16V FLEXSTART EXCLUSIVE XTRONIC", "price": 109900, "mileage": 46815, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBHK9HRQQBR535AKQ3BNMTTG.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 10392 }, "month24": { "months": 24, "value": 5810 }, "month36": { "months": 36, "value": 4311 }, "month48": { "months": 48, "value": 3582 }, "month60": { "months": 60, "value": 3161 } } },
+    { "id": 1239638371, "city": "Sumaré", "state": "SP", "year": "2020/2021", "brand": "CHEVROLET", "model": "ONIX", "version": "1.0 TURBO FLEX LT MANUAL", "price": 78900, "mileage": 44505, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJJTMC6NE8KTK7QGHR1TEDE.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 7460 }, "month24": { "months": 24, "value": 4171 }, "month36": { "months": 36, "value": 3095 }, "month48": { "months": 48, "value": 2572 }, "month60": { "months": 60, "value": 2269 } } },
+    { "id": 3083748464, "city": "Campinas", "state": "SP", "year": "2014/2015", "brand": "FIAT", "model": "PALIO", "version": "1.0 MPI ATTRACTIVE 8V FLEX 4P MANUAL", "price": 39900, "mileage": 108256, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAP61XGX0FTWN52RHN3GAG0B.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 3772 }, "month24": { "months": 24, "value": 2109 }, "month36": { "months": 36, "value": 1565 }, "month48": { "months": 48, "value": 1300 }, "month60": { "months": 60, "value": 1147 } } },
+    { "id": 4251931071, "city": "Campinas", "state": "SP", "year": "2016/2017", "brand": "RENAULT", "model": "DUSTER OROCH", "version": "2.0 16V FLEX DYNAMIQUE 4P MANUAL", "price": 67900, "mileage": 161133, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAVKS6RTP9E0AK8X7VJB3X5Q.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 6420 }, "month24": { "months": 24, "value": 3589 }, "month36": { "months": 36, "value": 2663 }, "month48": { "months": 48, "value": 2213 }, "month60": { "months": 60, "value": 1953 } } },
+    { "id": 2089330508, "city": "Campinas", "state": "SP", "year": "2021/2022", "brand": "CHEVROLET", "model": "CRUZE", "version": "1.4 TURBO SPORT6 LTZ 16V FLEX 4P AUTOMÁTICO", "price": 119900, "mileage": 53881, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAP5ZTS9EFXF1PKBV29EF4QC.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 11337 }, "month24": { "months": 24, "value": 6339 }, "month36": { "months": 36, "value": 4704 }, "month48": { "months": 48, "value": 3908 }, "month60": { "months": 60, "value": 3449 } } },
+    { "id": 3339542535, "city": "Sumaré", "state": "SP", "year": "2014/2015", "brand": "VOLKSWAGEN", "model": "UP", "version": "1.0 CROSS I MOTION T.FLEX 12V 5P", "price": 44900, "mileage": 129313, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBAWNY9AHFC023GADK2ZA3VR.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 4245 }, "month24": { "months": 24, "value": 2373 }, "month36": { "months": 36, "value": 1761 }, "month48": { "months": 48, "value": 1463 }, "month60": { "months": 60, "value": 1291 } } },
+    { "id": 6900419, "city": "Paulínia", "state": "SP", "year": "2019/2020", "brand": "FORD", "model": "KA", "version": "1.5 TI-VCT FLEX SE SEDAN MANUAL", "price": 55900, "mileage": 65338, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBCD9N5WPQ10SRH9H9J5Y3MZ.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5285 }, "month24": { "months": 24, "value": 2955 }, "month36": { "months": 36, "value": 2193 }, "month48": { "months": 48, "value": 1822 }, "month60": { "months": 60, "value": 1608 } } },
+    { "id": 953327093, "city": "Campinas", "state": "SP", "year": "2008/2009", "brand": "HYUNDAI", "model": "SANTA FE", "version": "2.7 MPFI GLS 7 LUGARES V6 24V GASOLINA 4P AUTOMATICO", "price": 54900, "mileage": 167423, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBCFRDHQA0GJ8EN3E4FRBVSD.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5191 }, "month24": { "months": 24, "value": 2902 }, "month36": { "months": 36, "value": 2153 }, "month48": { "months": 48, "value": 1789 }, "month60": { "months": 60, "value": 1579 } } },
+    { "id": 1864359471, "city": "Paulínia", "state": "SP", "year": "2021/2021", "brand": "NISSAN", "model": "VERSA", "version": "1.0 12V FLEX V-DRIVE MANUAL", "price": 59900, "mileage": 55000, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HAW79TJA0ENV50T97XCSYS6T.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5664 }, "month24": { "months": 24, "value": 3166 }, "month36": { "months": 36, "value": 2350 }, "month48": { "months": 48, "value": 1952 }, "month60": { "months": 60, "value": 1723 } } },
+    { "id": 3603205401, "city": "Campinas", "state": "SP", "year": "2015/2016", "brand": "FIAT", "model": "GRAND SIENA", "version": "1.6 MPI ESSENCE 16V FLEX 4P AUTOMATIZADO", "price": 49900, "mileage": 61300, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HATAVH8W4XFMXBXQ688ZW4W6.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 4718 }, "month24": { "months": 24, "value": 2638 }, "month36": { "months": 36, "value": 1957 }, "month48": { "months": 48, "value": 1626 }, "month60": { "months": 60, "value": 1435 } } },
+    { "id": 805393374, "city": "Paulínia", "state": "SP", "year": "2019/2019", "brand": "TOYOTA", "model": "YARIS", "version": "1.5 16V FLEX SEDAN XL MANUAL ", "price": 76900, "mileage": 61565, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTF7XK4F1BK16TQKGRY2GYR.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 7271 }, "month24": { "months": 24, "value": 4065 }, "month36": { "months": 36, "value": 3017 }, "month48": { "months": 48, "value": 2507 }, "month60": { "months": 60, "value": 2212 } } },
+    { "id": 3120127121, "city": "Campinas", "state": "SP", "year": "2018", "brand": "CHEVROLET", "model": "ONIX", "version": "1.4 MPFI LT 8V FLEX 4P MANUAL", "price": 62900, "mileage": 48536, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBAMY2WAB9PJZ4DKV4RY728W.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 5947 }, "month24": { "months": 24, "value": 3325 }, "month36": { "months": 36, "value": 2467 }, "month48": { "months": 48, "value": 2050 }, "month60": { "months": 60, "value": 1809 } } },
+    { "id": 2806761085, "city": "Paulínia", "state": "SP", "year": "2020/2020", "brand": "VOLKSWAGEN", "model": "T-CROSS", "version": "1.0 200 TSI TOTAL FLEX COMFORTLINE AUTOMATICO", "price": 98900, "mileage": 58267, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBT5YP3XFZSPTQ3NP44GGZA8.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 9351 }, "month24": { "months": 24, "value": 5228 }, "month36": { "months": 36, "value": 3880 }, "month48": { "months": 48, "value": 3224 }, "month60": { "months": 60, "value": 2845 } } },
+    { "id": 3055726367, "city": "Campinas", "state": "SP", "year": "2018", "brand": "HYUNDAI", "model": "IX35", "version": "2.0 MPFI GL 16V FLEX 4P AUTOMATICO", "price": 89900, "mileage": 105501, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HB72AFBDH6KK9XTERKHA1Z5S.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 8500 }, "month24": { "months": 24, "value": 4753 }, "month36": { "months": 36, "value": 3527 }, "month48": { "months": 48, "value": 2930 }, "month60": { "months": 60, "value": 2586 } } },
+    { "id": 3972099348, "city": "São José dos Campos", "state": "SP", "year": "2021/2022", "brand": "JEEP", "model": "COMPASS", "version": "1.3 T270 TURBO FLEX SPORT AT6", "price": 142900, "mileage": 42613, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJDAPYX6XWFF3DJCYQYGCJY.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 13512 }, "month24": { "months": 24, "value": 7555 }, "month36": { "months": 36, "value": 5606 }, "month48": { "months": 48, "value": 4658 }, "month60": { "months": 60, "value": 4110 } } },
+    { "id": 1987373602, "city": "São José dos Campos", "state": "SP", "year": "2021/2021", "brand": "FIAT", "model": "UNO", "version": "1.0 FIRE FLEX ATTRACTIVE MANUAL", "price": 54900, "mileage": 46612, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBGYGWQA5Q4XZWW78HCF0JCC.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 5191 }, "month24": { "months": 24, "value": 2902 }, "month36": { "months": 36, "value": 2153 }, "month48": { "months": 48, "value": 1789 }, "month60": { "months": 60, "value": 1579 } } },
+    { "id": 726953532, "city": "São José dos Campos", "state": "SP", "year": "2022/2022", "brand": "NISSAN", "model": "KICKS", "version": "1.6 16V FLEXSTART ADVANCE XTRONIC", "price": 105900, "mileage": 47, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTH9V4JSP7NSX15K8QDAPV6.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 10013 }, "month24": { "months": 24, "value": 5599 }, "month36": { "months": 36, "value": 4154 }, "month48": { "months": 48, "value": 3452 }, "month60": { "months": 60, "value": 3046 } } },
+    { "id": 2139481590, "city": "São José dos Campos", "state": "SP", "year": "2021/2022", "brand": "CHERY", "model": "TIGGO 3X PRO", "version": "1.0 TURBO FLEX AUTOMATICO", "price": 92900, "mileage": 32334, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBTKYKB3ZR7V2XAE64ETVQTY.jpg", "certificate": true, "promoted": false, "booking": false, "financing": true, "carType": "used", "rates": { "month12": { "months": 12, "value": 8784 }, "month24": { "months": 24, "value": 4911 }, "month36": { "months": 36, "value": 3644 }, "month48": { "months": 48, "value": 3028 }, "month60": { "months": 60, "value": 2672 } } },
+    { "id": 1092917260, "city": "São José dos Campos", "state": "SP", "year": "2019/2020", "brand": "HYUNDAI", "model": "HB20S", "version": "1.0 12V FLEX VISION MANUAL", "price": 66900, "mileage": 63654, "image": "https://d7mrzff3jg2ye.cloudfront.net/br_importer/spyne/ASST-br_importer-01HBJJKBNMCMJX4HS5NJA9DMXB.jpg", "certificate": true, "promoted": false, "booking": false, "financing": false, "carType": "used", "rates": { "month12": { "months": 12, "value": 6326 }, "month24": { "months": 24, "value": 3537 }, "month36": { "months": 36, "value": 2624 }, "month48": { "months": 48, "value": 2181 }, "month60": { "months": 60, "value": 1924 } } }
+  ],
+  "page": 1,
+  "pageSize": 100,
+  "totalCount": 1902,
+  "totalPages": 20
+}
