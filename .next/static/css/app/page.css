@@ -1,0 +1,231 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/components/Button/Button.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__Tls0G {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Button_button__Tls0G:not(.Button_unstyled__j9OyE, .Button_link__EFtpq) {
+  border-radius: 50px;
+  padding: 12px 20px;
+  gap: 8px;
+}
+.Button_button__Tls0G.Button_unstyled__j9OyE, .Button_button__Tls0G.Button_link__EFtpq {
+  background-color: transparent;
+  padding: 0;
+  gap: 4px;
+}
+.Button_button__Tls0G.Button_unstyled__j9OyE {
+  color: var(--gray-800);
+}
+.Button_button__Tls0G.Button_unstyled__j9OyE svg > path {
+  fill: var(--gray-800);
+}
+.Button_button__Tls0G.Button_link__EFtpq {
+  color: var(--blue-800);
+}
+.Button_button__Tls0G.Button_link__EFtpq svg > path {
+  fill: var(--blue-800);
+}
+.Button_button__Tls0G.Button_primary__3YQSl {
+  background-color: var(--blue-800);
+  color: var(--gray-100);
+}
+.Button_button__Tls0G.Button_primary__3YQSl svg > path {
+  fill: var(--gray-100);
+}
+.Button_button__Tls0G.Button_secondary__ZpFdG {
+  background-color: var(--white);
+  color: var(--gray-700);
+}
+.Button_button__Tls0G.Button_secondary__ZpFdG svg > path {
+  fill: var(--gray-700);
+}
+.Button_button__Tls0G.Button_icon-only__ESnBc:not(.Button_unstyled__j9OyE) {
+  padding: 4px;
+  border-radius: 50%;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/components/Badge/Badge.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Badge_badge__Sdu8h {
+  padding: 2px 8px;
+  border-radius: 68px;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: var(--gray-200);
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/components/ProductCard/ProductCard.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ProductCard_product__ewiGO {
+  width: 100%;
+  max-width: 296px;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card__g4e08 {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: var(--shadow-xl);
+  width: 100%;
+  height: 100%;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-header__oQfi4 {
+  position: relative;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-header__oQfi4 .ProductCard_product-card-image__ARGfS {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-header__oQfi4 .ProductCard_button-like__voSMJ {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-body__ZUoOo {
+  padding: 4px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-body__ZUoOo .ProductCard_badges__6LDog {
+  display: flex;
+  gap: 8px;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-body__ZUoOo .ProductCard_product-info__gj3LK {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-body__ZUoOo .ProductCard_product-info__gj3LK .ProductCard_price__bD5ui {
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--orange-700);
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-body__ZUoOo .ProductCard_product-info__gj3LK .ProductCard_location__Ij4Tg {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--gray-700);
+}
+.ProductCard_product__ewiGO .ProductCard_product-card-footer__fwGZl {
+  padding: 8px 0;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/components/Chip/Chip.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Chip_chip__SpKDj {
+  border: 1px solid var(--blue-500);
+  border-radius: 64px;
+  padding: 4px 8px;
+  color: var(--blue-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.Chip_chip__SpKDj:hover {
+  background-color: var(--gray-200);
+}
+.Chip_chip__SpKDj svg > path {
+  fill: var(--blue-800);
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/components/Accordion/Accordion.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Accordion_accordion__mZ_hq {
+  border-bottom: 1px solid var(--gray-350);
+  transition: all 0.3s ease-in-out;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.Accordion_accordion__mZ_hq .Accordion_accordion-header__Mr0sg {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.Accordion_accordion__mZ_hq .Accordion_accordion-body__cPUZo {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Accordion_accordion__mZ_hq .Accordion_accordion-body__cPUZo .Accordion_accordion-item__j7q7_ {
+  text-transform: capitalize;
+}
+.Accordion_accordion-open__9K65T .Accordion_accordion-header__Mr0sg .Accordion_accordion-header-icon__lLqRF {
+  transform: rotate(180deg);
+}
+.Accordion_accordion-open__9K65T .Accordion_accordion-body__cPUZo {
+  padding-top: 20px;
+  height: auto;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/home.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.home_home-search__B7LIy {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (min-width: 720px) {
+  .home_home-search__B7LIy {
+    gap: 24px;
+  }
+}
+.home_home-search__B7LIy .home_title__zcKAO {
+  grid-column: 1/-1;
+}
+.home_home-search__B7LIy .home_filters__mXnuA {
+  grid-column: 1/span 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home_home-search__B7LIy .home_results-container__kUsiU {
+  grid-column: 2/-1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.home_home-search__B7LIy .home_results-container__kUsiU .home_applied-filters__3vOQK {
+  display: flex;
+  gap: 8px;
+  max-width: 720px;
+  flex-wrap: wrap;
+}
+.home_home-search__B7LIy .home_results-container__kUsiU .home_applied-filters-container__hndXw {
+  display: flex;
+  justify-content: space-between;
+}
+.home_home-search__B7LIy .home_results-container__kUsiU .home_counter-and-sorting__kqY3J {
+  display: flex;
+  justify-content: space-between;
+}
+.home_home-search__B7LIy .home_results-container__kUsiU .home_results__LChck {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+@media (min-width: 720px) {
+  .home_home-search__B7LIy .home_results-container__kUsiU .home_results__LChck {
+    gap: 24px;
+  }
+}
