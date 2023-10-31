@@ -4,16 +4,21 @@ import ProductCard from './components/ProductCard/ProductCard'
 import homeStyles from './home.module.scss'
 import Chip from './components/Chip/Chip'
 import Button from './components/Button/Button'
+import FavoritesModal from './components/FavoritesModal/index'
 import { Arrows, TrashIcon } from './components/Icons'
 import { Accordion } from './components/Accordion/Accordion'
 import { useAppliedFilters } from './hooks/useFilter'
 import { dataToFilterOptions } from './adapters/dataToFilterOptions.adapter'
 import { RestClient } from './api/cars'
+import LikeIcon from './components/Icons/LikeIcon'
 
 const Home = () => {
-  const [data, setData] = useState<any>({})
-  const [error, setError] = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [data, setData] = useState<any>({});
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  const toogleModal = () => setIsOpen(!modalIsOpen);
 
   const client = new RestClient();
 
@@ -40,11 +45,9 @@ const Home = () => {
       .then(res => res)
       .then(data => {
         const filteredData = client.getCarsFiltered(data, appliedFilters);
-        console.log('client filteredData: ', filteredData);
         setData(filteredData)
         setError(null)
         setLoading(false)
-        console.log(data);
       })
       .catch(err => {
         console.error(`Error fetching data: ${err.message}`)
@@ -90,6 +93,10 @@ const Home = () => {
             </div>
             <Button buttonType='link' title='Limpiar Filtros'>
               <TrashIcon width={20} height={20} /> Limpiar Filtros
+            </Button>
+            <Button buttonType='link' onClick={() => toogleModal()} title='Ir a favoritos'>
+              <LikeIcon isLiked={false} width={20} height={20} /> Abrir favoritos
+              <FavoritesModal modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
             </Button>
           </div>
           <div className={homeStyles['counter-and-sorting']}>

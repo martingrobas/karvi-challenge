@@ -46,9 +46,6 @@
   &.secondary {
     background-color: var(--white);
     color: var(--gray-700);
-    svg > path {
-      fill: var(--gray-700);
-    }
   }
   &.icon-only:not(.unstyled) {
     padding: 4px;

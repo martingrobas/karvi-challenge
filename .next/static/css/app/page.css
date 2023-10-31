@@ -41,9 +41,6 @@
   background-color: var(--white);
   color: var(--gray-700);
 }
-.Button_button__Tls0G.Button_secondary__ZpFdG svg > path {
-  fill: var(--gray-700);
-}
 .Button_button__Tls0G.Button_icon-only__ESnBc:not(.Button_unstyled__j9OyE) {
   padding: 4px;
   border-radius: 50%;
@@ -141,6 +138,13 @@
 }
 .Chip_chip__SpKDj svg > path {
   fill: var(--blue-800);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/components/FavoritesModal/FavoritesModal.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.FavoritesModal_modal__DmPW4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/app/components/Accordion/Accordion.module.scss ***!

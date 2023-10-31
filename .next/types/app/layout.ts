@@ -1,4 +1,4 @@
-// File: /Users/martingrobas/Desktop/karvi-challengue/src/app/layout.tsx
+// File: /Users/martingrobas/Desktop/work/karvi-challenge/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

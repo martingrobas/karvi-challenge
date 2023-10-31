@@ -20,9 +20,7 @@ export const useAppliedFilters = () => {
   const [appliedFilters, setAppliedFilters] = useState<Filter[]>(defaultFilters)
 
   const addFilter = (filter: Filter) => {
-    console.log(filter);
     const [key] = Object.keys(filter);
-    console.log(key);
     const value = filter[key];
     const alreadyApplied = appliedFilters.some(f => f[key] === value);
     if (alreadyApplied) return;

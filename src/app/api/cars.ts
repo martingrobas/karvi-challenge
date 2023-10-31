@@ -20,18 +20,12 @@ export class RestClient {
         this.data = data; // save data in this.data
         return data;
       } catch (error) {
-        // Manejar errores aquí
         console.error('Error al obtener los datos:', error);
-        throw error; // Puedes lanzar el error para que sea manejado en el lugar donde llames a esta función.
+        throw error;
       }
     }
     
     getCarsFiltered(data, filters: any) {
-      
-      console.log('data: ', data);
-      console.log('filters: ', filters);
-
-      // Luego, realiza el procesamiento de filtros y devuelve los datos filtrados
       const filteredData = (() => {
         return data?.items?.filter((item) => {
           const fil = filters.every((filtro) => {

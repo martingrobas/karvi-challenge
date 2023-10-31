@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import React from 'react'
+import React, { useState } from 'react'
 import cardStyles from './ProductCard.module.scss'
 import Button from '../Button/Button'
 import { LikeIcon, CalculatorIcon } from '../Icons'
@@ -17,19 +17,50 @@ interface ProductCardProps extends React.ComponentPropsWithoutRef<'article'> {
   city?: string
   state?: string
   financing?: boolean
+  heart?: boolean
 }
-export const ProductCard = ({ className, productId, image, year, mileage, brand, model, version, price, city, state, financing, ...r }: ProductCardProps) => {
+export const ProductCard = ({ className, heart = true, productId, image, year, mileage, brand, model, version, price, city, state, financing, ...r }: ProductCardProps) => {
+  const [isLiked, setIsLiked] = useState(false);
   const classes = classNames(cardStyles['product-card'], className)
   const Wrapper = productId ? 'a' : 'div'
+
+  const handleLikeClick = () => {
+    if (isLiked) {
+      localStorage.removeItem(`liked_${productId}`);
+    } else {
+      const likedCar = {
+        image,
+        year,
+        mileage,
+        brand,
+        model,
+        version,
+        price,
+        city,
+        state,
+      };
+      localStorage.setItem(`liked_${productId}`, JSON.stringify(likedCar));
+    }
+
+    setIsLiked(!isLiked);
+  };
+
+  function isSaved(productId) {
+    const likedCarData = localStorage.getItem(`liked_${productId}`);
+    return likedCarData !== null; // Devuelve true si el auto está guardado, de lo contrario, devuelve false.
+  }
+
   return (
-    <Wrapper {...(productId && { href: `/product/${productId}` })} title={`${brand} ${model}`} className={cardStyles.product}>
+    <Wrapper title={`${brand} ${model}`} className={cardStyles.product}>
       <article className={classes} {...r}>
         <div className={cardStyles['product-card-header']}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           {image && <img src={image} alt={`${brand} ${model}`} loading='lazy' width={200} height={140} className={cardStyles['product-card-image']} />}
-          <Button buttonType='secondary' iconOnly className={cardStyles['button-like']}>
-            <LikeIcon width={20} height={20} />
-          </Button>
+          {heart && (
+            <Button buttonType='secondary' onClick={handleLikeClick} iconOnly className={cardStyles['button-like']}>
+              <LikeIcon width={20} height={20} isLiked={isLiked || isSaved(productId)} />
+            </Button>
+          )}
         </div>
         <div className={cardStyles['product-card-body']}>
             <div className={cardStyles['badges']}>
